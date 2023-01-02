@@ -8,8 +8,7 @@ import Search from './components/Search';
 import Selects from './components/Selects';
 
 function App() {
-  console.log('b')
-  console.log('c')
+  console.log('a');
   return (
     <div>
       <Navbar />
