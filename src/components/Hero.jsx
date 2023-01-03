@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='flex items-center justify-evenly w-full h-screen' style={{ backgroundColor: "#6644fa" }}>
       <div className='justify-center text-center text-white mx-4 p-4 lg:max-w-1/2 sm:lg:max-w-full '>
-        <div className='flex flex-col p-4'>
+        <div className='flex flex-col p-8 m-8'>
           <h1 className='font-sans py-4'>Create Your Own Adventure with Our Custom Tour Packages</h1>
           <p className='font-sans py-4'>Our tours are carefully crafted to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over</p>
           <div class="lg:mt-0 lg:flex-shrink-0">
