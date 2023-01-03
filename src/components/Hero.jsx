@@ -1,40 +1,29 @@
 import React from 'react';
-import { AiOutlineSearch } from 'react-icons/ai';
-import beachVid from '../assets/Motion.mp4';
+import travel03 from '../assets/travel03.png';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen relative home_page1'>
-      <video
-        className='w-full h-full object-cover'
-        src={beachVid}
-        autoPlay
-        loop
-        muted
-      />
-      <div className='absolute w-full h-full top-0 left-0 bg-gray-900/30'></div>
-      <div className='absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4'>
-        <h1>Search Youch Journey</h1>
-        {/* <h2 className='py-4'>Plan your trip with <span className='' style={{ color: '#1610d4' }}>TripNThrill</span></h2> */}
-        <h2 className='py-4'>Plan your trip with <button className='w-30'>TripNThrill</button></h2>
-        <form
-          className='flex justify-between items-center max-w-[700px] mx-auto w-full border p-1
-          rounded-md text-black bg-gray-100/90'
-        >
-          <div>
-            <input
-              className='bg-transparent w-[300px] sm:w-[400px] font-[Poppins] focus:outline-none
-                  '
-              type='text'
-              placeholder='Search Destinations'
-            />
+    <div className='flex items-center justify-evenly w-full h-screen' style={{ backgroundColor: "#6644fa" }}>
+      <div className='justify-center text-center text-white mx-4 p-4 lg:max-w-1/2 sm:lg:max-w-full '>
+        <div className='flex flex-col p-4'>
+          <h1 className='font-sans py-4'>Create Your Own Adventure with Our Custom Tour Packages</h1>
+          <p className='font-sans py-4'>Our tours are carefully crafted to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over</p>
+          <div class="lg:mt-0 lg:flex-shrink-0">
+            <div class=" inline-flex rounded-md shadow">
+              <button type="button" class="py-4 px-6  bg-#03008d hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                Exploare
+              </button>
+            </div>
+            <div class="inline-flex ml-3 rounded-md shadow">
+              <button type="button" class="py-4 px-6  bg-#6644fa hover:bg-indigo-700 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                Get our app
+              </button>
+            </div>
           </div>
-          <div>
-            <button>
-              <AiOutlineSearch size={20} className='icon' style={{ color: '#ffffff' }} />
-            </button>
-          </div>
-        </form>
+        </div>
+      </div>
+      <div className="lg:max-w-1/2 sm:lg:max-w-full">
+        <img className='' src={travel03} alt="/" />
       </div>
     </div>
   );

@@ -20,9 +20,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-black' style={{ backgroundColor: "#ffffff" }}>
-      <div>
-        <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>TripNThrill</h1>
+    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
+      <div >
+        <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}><span style={{ color: '#03008d' }}>TripNThrill</span></h1>
       </div>
       <ul className='hidden md:flex'>
         <li>Home</li>

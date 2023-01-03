@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 :root {
   --primary-dark: #5651e5;
@@ -42,5 +42,6 @@
 }
 
 * {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #6644fa;
 }

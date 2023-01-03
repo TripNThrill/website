@@ -6,9 +6,9 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Search from './components/Search';
 import Selects from './components/Selects';
+import './App.css';
 
 function App() {
-  console.log('a');
   return (
     <div>
       <Navbar />
