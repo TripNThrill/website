@@ -1,6 +1,6 @@
-# Start this Web Application
+# To start this Web Application
 
-npm i
+npm i\
 npm start
 
 # Getting Started with Create React App
