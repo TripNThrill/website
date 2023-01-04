@@ -4,11 +4,11 @@ import { MdOutlineTravelExplore } from 'react-icons/md';
 
 const Search = () => {
   return (
-    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16 text-white'>
+    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16 '>
       <div className='lg:col-span-2 flex flex-col justify-evenly'>
         <div>
-          <h2 className='font-bold'>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
-          <p className='py-4'>
+          <h2 className='font-bold text-indigo-900'>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
+          <p className='py-4 text-indigo-600'>
             Come experience the very pinnacle of luxury Caribbean all-inclusive
             vacations for couples at BEACHES Resorts. Our luxury beach resorts,
             set along the most gorgeous tropical settings and exquisite beaches
