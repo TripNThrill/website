@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import { BsPerson } from 'react-icons/bs';
 import { BiSearch } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -24,13 +25,13 @@ const Navbar = () => {
       <div >
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}><span style={{ color: '#03008d' }}>TripNThrill</span></h1>
       </div>
-      <ul className='hidden md:flex text-indigo-800'>
-        <li>Home</li>
-        <li>Destinations</li>
-        <li>Travel</li>
-        <li>View</li>
-        <li>Book</li>
-      </ul>
+      <div className='hidden md:flex justify-evenly w-3/4 font-bold text-indigo-800'>
+        <Link to="/">Home</Link>
+        <Link to="/">Destinations</Link>
+        <Link to="/">Travel</Link>
+        <Link to="/contact">contact</Link>
+        <Link to="/">Book</Link>
+      </div>
       <div className='hidden md:flex'>
         <BiSearch className='' size={20} />
         <BsPerson size={20} />
@@ -48,7 +49,7 @@ const Navbar = () => {
           <li className='border-b'>Home</li>
           <li className='border-b'>Destinations</li>
           <li className='border-b'>Travel</li>
-          <li className='border-b'>View</li>
+          <li className='border-b'>contact</li>
           <li className='border-b'>Book</li>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>

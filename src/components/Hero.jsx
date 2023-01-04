@@ -3,7 +3,7 @@ import travel03 from '../assets/travel03.png';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col-reverse items-center justify-evenly w-full h-screen sm:flex-row'>
+    <div className='flex flex-col-reverse items-center justify-evenly w-full h-screen md:flex-row'>
       <div className='justify-center text-center mx-4 p-4 lg:max-w-1/2 sm:lg:max-w-full'>
         <div className='flex flex-col p-8 m-8'>
           <h1 className='font-sans py-4 text-indigo-900'>Create Your Own Adventure with Our Custom Tour Packages</h1>
