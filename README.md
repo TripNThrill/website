@@ -1,6 +1,7 @@
-<!-- Start this Web Application -->
-<!-- npm i -->
-<!-- npm start -->
+# To start this Web Application
+
+npm i\
+npm start
 
 # Getting Started with Create React App
 

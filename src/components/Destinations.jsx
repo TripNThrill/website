@@ -9,14 +9,14 @@ import KeyWest from '../assets/keywest.jpg';
 const Destinations = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 text-center' >
-      <h1 className='text-white'>All-Inclusive Resorts</h1>
-      <p className='text-white py-4'>On the Best Beaches</p>
+      <h1 className='text-indigo-900'>All-Inclusive Resorts</h1>
+      <p className='text-indigo-600 py-4'>On the Best Beaches</p>
       <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
-        <img className='w-full h-full object-cover col-span-2 md:col-span-3 row-span-2 border border-#ffffff' src={BoraBora} alt="/" />
-        <img className='w-full h-full object-cover border border-#ffffff' src={BoraBora2} alt="/" />
-        <img className='w-full h-full object-cover border border-#ffffff' src={Maldives} alt="/" />
-        <img className='w-full h-full object-cover border border-#ffffff' src={Maldives2} alt="/" />
-        <img className='w-full h-full object-cover border border-#ffffff' src={KeyWest} alt="/" />
+        <img className='w-full h-full object-cover col-span-2 md:col-span-3 row-span-2 border-2 border-violet-900' src={BoraBora} alt="/" />
+        <img className='w-full h-full object-cover border-2 border-violet-900' src={BoraBora2} alt="/" />
+        <img className='w-full h-full object-cover border-2 border-violet-900' src={Maldives} alt="/" />
+        <img className='w-full h-full object-cover border-2 border-violet-900' src={Maldives2} alt="/" />
+        <img className='w-full h-full object-cover border-2 border-violet-900' src={KeyWest} alt="/" />
       </div>
     </div>
   )
