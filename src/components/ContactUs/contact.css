@@ -1,43 +1,54 @@
-* {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Poppins:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+.contactme {
+  background-image: url("http://www.mmasynergy.com/images/inner-banner.jpg");
 }
-.container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 10% 1fr 1fr 10%;
-  grid-template-rows: 10% 1fr 1fr 10%;
-  border: solid 3px black;
-}
-.outerFormContainer {
-  display: grid;
-  grid-column: 2/4;
-  grid-row: 2/4;
-  grid-gap: 200px;
-  background-color: #c3dce8;
-  border: solid 3px black;
-}
-.innerFormContainer {
-  grid-column: 2/2;
-  grid-row-start: 1;
-  padding-top: 20px;
-  position: relative;
-  float: right;
-  margin-left: auto;
-  margin-right: 0;
+.contactOverlay {
+  background-color: rgba(0, 0, 0, 0.921);
 }
 
-.textField {
-  display: block;
-  background-color: blue;
+form button {
+  width: 190px;
+  height: 55px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #001517;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+  color: white;
+  font-weight: bold;
+  margin-top: 20%;
 }
-#emailIcon {
+form button:hover {
+  background-color: unset;
+  border: 2px solid #e49504;
+  -webkit-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+  color: black;
+}
+
+.formWord input {
   width: 100%;
-  padding: 100px 50px 75px 100px;
+  height: 50px;
+  margin-bottom: 10%;
+  border: 0;
+  margin-top: 2%;
+  padding-left: 3%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+  box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
 }
-ul {
-  text-decoration: none !important;
-  color: red;
+.formWord textarea {
+  width: 100%;
+  margin-bottom: 10%;
+  border: 0;
+  margin-top: 2%;
+  height: 80px;
+  color: black;
+  -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+  box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+  padding-left: 3%;
 }

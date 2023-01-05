@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar, Footer, Contact } from './components'
+import { Navbar, Footer, ContactUsPage } from './components'
 import Home from './Home';
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={< Contact />} />
+          <Route path="/contact" element={< ContactUsPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
