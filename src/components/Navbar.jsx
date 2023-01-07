@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link to="/">Destinations</Link>
         <Link to="/">Travel</Link>
         <Link to="/contact">contact</Link>
-        <Link to="/">Book</Link>
+        <Link to="/terms">Terms and Conditions</Link>
       </div>
       <div className='hidden md:flex'>
         <BiSearch className='' size={20} />
@@ -50,7 +50,7 @@ const Navbar = () => {
           <li className='border-b'><Link to="/">Destinations</Link></li>
           <li className='border-b'><Link to="/">Travel</Link></li>
           <li className='border-b'><Link to="/contact">contact</Link></li>
-          <li className='border-b'><Link to="/">Book</Link></li>
+          <li className='border-b'><Link to="/terms">Terms and Conditions</Link></li>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
             <button>Account</button>

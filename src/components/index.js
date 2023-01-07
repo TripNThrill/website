@@ -6,3 +6,4 @@ export { default as Search } from './Search';
 export { default as Selects } from './Selects'
 export { default as Carousel } from './Carousel'
 export { default as ContactUsPage } from './ContactUs/ContactUsPage'
+export { default as TnC } from './TermsPage/TnC'
