@@ -1,54 +1,160 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Poppins:300,400,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
-
-.contactme {
-  background-image: url("http://www.mmasynergy.com/images/inner-banner.jpg");
-}
-.contactOverlay {
-  background-color: rgba(0, 0, 0, 0.921);
+.contactUsForm {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../../assets/contactImg.jpg");
+  background-size: cover;
 }
 
-form button {
-  width: 190px;
-  height: 55px;
-  border: 0;
-  border-radius: 5px;
-  background-color: #001517;
-  -webkit-transition: 0.5s linear;
-  -o-transition: 0.5s linear;
-  transition: 0.5s linear;
-  color: white;
-  font-weight: bold;
-  margin-top: 20%;
-}
-form button:hover {
-  background-color: unset;
-  border: 2px solid #e49504;
-  -webkit-transition: 0.5s linear;
-  -o-transition: 0.5s linear;
-  transition: 0.5s linear;
-  color: black;
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.formWord input {
+.contact .content {
+  /* max-width: 800px; */
+  text-align: center;
+}
+
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+
+.container {
   width: 100%;
-  height: 50px;
-  margin-bottom: 10%;
-  border: 0;
-  margin-top: 2%;
-  padding-left: 3%;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
-  box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
 }
-.formWord textarea {
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  /* height: 60px; */
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactForm .inputBox {
+  position: relative;
   width: 100%;
-  margin-bottom: 10%;
-  border: 0;
-  margin-top: 2%;
-  height: 80px;
-  color: black;
-  -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
-  box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
-  padding-left: 3%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo .extraInfo {
+    visibility: hidden;
+  }
+  .contactForm {
+    width: 100%;
+    padding: 40px;
+  }
+  .container .contactInfo {
+    margin-bottom: 40px;
+    width: 100%;
+  }
 }
