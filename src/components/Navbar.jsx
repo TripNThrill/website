@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-#6644fa'>
+    <div className='flex w-full justify-between items-center h-20 px-4 text-#6644fa'>
       <div >
         <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}><span style={{ color: '#03008d' }}>TripNThrill</span></h1>
       </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <Link to="/">Destinations</Link>
         <Link to="/">Travel</Link>
         <Link to="/contact">contact</Link>
-        <Link to="/">Book</Link>
+        <Link to="/terms">Terms and Conditions</Link>
       </div>
       <div className='hidden md:flex'>
         <BiSearch className='' size={20} />
@@ -46,11 +46,11 @@ const Navbar = () => {
       <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <h1>TripNThrill</h1>
-          <li className='border-b'>Home</li>
-          <li className='border-b'>Destinations</li>
-          <li className='border-b'>Travel</li>
-          <li className='border-b'>contact</li>
-          <li className='border-b'>Book</li>
+          <li className='border-b'><Link to="/">Home</Link></li>
+          <li className='border-b'><Link to="/">Destinations</Link></li>
+          <li className='border-b'><Link to="/">Travel</Link></li>
+          <li className='border-b'><Link to="/contact">contact</Link></li>
+          <li className='border-b'><Link to="/terms">Terms and Conditions</Link></li>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
             <button>Account</button>
