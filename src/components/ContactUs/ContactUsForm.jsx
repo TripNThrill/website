@@ -1,7 +1,7 @@
 import React from 'react'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-import './Contact.css'
+import './contact.css'
 import {
     FaMobileAlt,
     FaRegEnvelope,
