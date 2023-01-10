@@ -64,7 +64,10 @@ function ContactUsForm() {
                             </div>
                         </div>
                         <div className="contactForm">
-                            <form action="" onSubmit={sendEmail}>
+                            <form action="" onSubmit={(e) => {
+                                setOpenModal(true);
+                                sendEmail(e);
+                            }}>
                                 {/* <form action=""> */}
                                 <h2>Send Message</h2>
                                 <div className="inputBox">
@@ -84,9 +87,7 @@ function ContactUsForm() {
                                     <span>Type your Message</span>
                                 </div>
                                 <div className="inputBox">
-                                    <input type="Submit" onClick={() => {
-                                        setOpenModal(true);
-                                    }} name="" value="Send" />
+                                    <input type="Submit" name="" value="Send" />
                                 </div>
                             </form>
                         </div>

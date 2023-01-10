@@ -1,11 +1,12 @@
 import React from 'react';
+import appDesign from '../assets/appDesign.png';
 import { RiCustomerService2Fill } from 'react-icons/ri';
 import { MdOutlineTravelExplore } from 'react-icons/md';
 
 const Search = () => {
   return (
-    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 px-4 py-16 '>
-      <div className='lg:col-span-2 flex flex-col justify-evenly'>
+    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-4 gap-4 px-4 py-16 '>
+      <div className='lg:col-span-3 flex flex-col justify-evenly'>
         <div>
           <h2 className='font-bold text-indigo-900'>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
           <p className='py-4 text-indigo-600'>
@@ -42,8 +43,8 @@ const Search = () => {
         </div>
       </div>
 
-      <div className="bg-#03008d border-2 border-indigo-600 text-center">
-        <h1>Details about TripNThrill app</h1>
+      <div className="h-full flex justify-center">
+        <img className='h-full w-full sm:w-1/2 border rounded-3xl	' src={appDesign} alt="/" />
       </div>
     </div>
   );
