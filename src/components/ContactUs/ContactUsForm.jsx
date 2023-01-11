@@ -52,14 +52,14 @@ function ContactUsForm() {
                                 <div className="icon"><FaMobileAlt className='icon' /></div>
                                 <div className="text">
                                     <h3>Phone</h3>
-                                    <p>+91 8521479630</p>
+                                    <p>+91 9148939841</p>
                                 </div>
                             </div>
                             <div className="box">
                                 <div className="icon"><FaRegEnvelope className='icon' /></div>
                                 <div className="text">
                                     <h3>Email</h3>
-                                    <p>tripnthrill.com</p>
+                                    <p className='cursor-pointer' onClick={() => window.location = 'mailto:yourmail@domain.com'}>support@tripnthrill.com</p>
                                 </div>
                             </div>
                         </div>
