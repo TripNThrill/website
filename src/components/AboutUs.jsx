@@ -1,10 +1,12 @@
 import React from 'react'
-import appDesign from '../../assets/appDesign.png'
-import travel from '../../assets/travelempty.jpg'
-import sumukh from '../../assets/sumukh.png'
-import aman from '../../assets/aman.png'
+import appDesign from '../assets/appDesign.png'
+import travel from '../assets/travelempty.jpg'
+import subhendu from '../assets/subhendu.png'
+import sampreeth from '../assets/sampreeth.png'
+import sumukh from '../assets/sumukh.png'
+import aman from '../assets/aman.png'
 
-function Random() {
+function AboutUs() {
     return (
         <div>
             <main>
@@ -243,12 +245,12 @@ function Random() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-2-800x800.jpg").default}
+                                        src={sampreeth}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
                                             Sampreeth H
@@ -261,12 +263,12 @@ function Random() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-3-800x800.jpg").default}
+                                        src={subhendu}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
                                             Shubhendu
@@ -394,4 +396,4 @@ function Random() {
     )
 }
 
-export default Random
+export default AboutUs;

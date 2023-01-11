@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='my-4 sm:border-r-2 border-gray-900'>
           <p className='font-bold'>About TripNThrill</p>
           <ul className=''>
-            <li>About</li>
+            <li><Link to="/about">About Us</Link></li>
             <li>Partnerships</li>
             <li>Careers</li>
             <li>Newsroom</li>
