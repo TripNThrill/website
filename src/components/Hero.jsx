@@ -1,5 +1,5 @@
 import React from 'react';
-import travel03 from '../assets/travel03.png';
+import travel from '../assets/travel.png';
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:max-w-1/2 lg:max-w-full sm:max-w-full">
-        <img className='' src={travel03} alt="/" />
+        <img className='' src={travel} alt="/" />
       </div>
     </div>
   );

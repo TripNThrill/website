@@ -271,7 +271,7 @@ function AboutUs() {
                                     />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Shubhendu
+                                            Shubhendu Mandal
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             App Developer
