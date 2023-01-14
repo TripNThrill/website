@@ -2,7 +2,8 @@ import React from 'react'
 import appDesign from '../assets/appDesign.png'
 import travel from '../assets/travelempty.jpg'
 import subhendu from '../assets/subhendu.png'
-import sampreeth from '../assets/sampreeth.png'
+import sampreeth from '../assets/sampreeth.jpg'
+import vaibhav from '../assets/vaibhav.jpg'
 import sumukh from '../assets/sumukh.png'
 import aman from '../assets/aman.png'
 
@@ -253,7 +254,7 @@ function AboutUs() {
                                     />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Sampreeth H
+                                            Sampreeth
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Marketing Specialist
@@ -271,7 +272,7 @@ function AboutUs() {
                                     />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Shubhendu Mandal
+                                            Shubhendu
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             App Developer
@@ -282,15 +283,15 @@ function AboutUs() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-4-470x470.png").default}
+                                        src={vaibhav}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Vaibhav M
+                                            Vaibhav
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Frontend Developer
