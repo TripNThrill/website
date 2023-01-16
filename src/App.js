@@ -1,21 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar, Footer, ContactUsPage, TnC } from './components'
-import Home from './Home';
+import { Navbar, Footer } from './components'
 import './App.css';
+import AllRoutes from './AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <header className="App-header">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={< ContactUsPage />} />
-          <Route path="/terms" element={<TnC />} />
-        </Routes>
+        <AllRoutes />
         <Footer />
-      </BrowserRouter>
+      </header>
     </div>
   );
 }

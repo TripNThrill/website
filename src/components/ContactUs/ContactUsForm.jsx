@@ -83,6 +83,10 @@ function ContactUsForm() {
                                     <span>Email</span>
                                 </div>
                                 <div className="inputBox">
+                                    <input type="text" name="subject" required="required" />
+                                    <span>Subject</span>
+                                </div>
+                                <div className="inputBox">
                                     <textarea name="message" required="required"></textarea>
                                     <span>Type your Message</span>
                                 </div>
