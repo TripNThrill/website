@@ -1,10 +1,13 @@
 import React from 'react'
-import appDesign from '../../assets/appDesign.png'
-import travel from '../../assets/travelempty.jpg'
-import sumukh from '../../assets/sumukh.png'
-import aman from '../../assets/aman.png'
+import appDesign from '../assets/appDesign.png'
+import travel from '../assets/travelempty.jpg'
+import subhendu from '../assets/subhendu.png'
+import sampreeth from '../assets/sampreeth.jpg'
+import vaibhav from '../assets/vaibhav.jpg'
+import sumukh from '../assets/sumukh.png'
+import aman from '../assets/aman.jpg'
 
-function Random() {
+function AboutUs() {
     return (
         <div>
             <main>
@@ -243,15 +246,15 @@ function Random() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-2-800x800.jpg").default}
+                                        src={sampreeth}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Sampreeth H
+                                            Sampreeth
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Marketing Specialist
@@ -261,12 +264,12 @@ function Random() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-3-800x800.jpg").default}
+                                        src={subhendu}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
                                             Shubhendu
@@ -280,15 +283,15 @@ function Random() {
                             </div>
                             <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
-                                    {/* <img
+                                    <img
                                         alt="..."
-                                        src={require("assets/img/team-4-470x470.png").default}
+                                        src={vaibhav}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
-                                    /> */}
+                                    />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Vaibhav M
+                                            Vaibhav
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Frontend Developer
@@ -318,80 +321,9 @@ function Random() {
                         </div>
                     </div>
                 </section>
-
-                <section className="pb-20 relative block bg-gray-900">
-                    <div
-                        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-                        style={{ height: "80px" }}
-                    >
-                        <svg
-                            className="absolute bottom-0 overflow-hidden"
-                            xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="none"
-                            version="1.1"
-                            viewBox="0 0 2560 100"
-                            x="0"
-                            y="0"
-                        >
-                            <polygon
-                                className="text-gray-900 fill-current"
-                                points="2560 0 2560 100 0 100"
-                            ></polygon>
-                        </svg>
-                    </div>
-
-                    <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
-                        <div className="flex flex-wrap text-center justify-center">
-                            <div className="w-full lg:w-6/12 px-4">
-                                <h2 className="text-4xl font-semibold text-white">
-                                    Plan Your Trip
-                                </h2>
-                                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                                    We are dedicated to providing excellent customer service and ensuring that your trip exceeds your expectations.
-                                    Let us help you plan your next adventure!
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex flex-wrap mt-12 justify-center">
-                            <div className="w-full lg:w-3/12 px-4 text-center">
-                                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                                    <i className="fas fa-medal text-xl"></i>
-                                </div>
-                                <h6 className="text-xl mt-5 font-semibold text-white">
-                                    Excelent Services
-                                </h6>
-                                <p className="mt-2 mb-4 text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat optio quas vero eum eligendi.
-                                </p>
-                            </div>
-                            <div className="w-full lg:w-3/12 px-4 text-center">
-                                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                                    <i className="fas fa-poll text-xl"></i>
-                                </div>
-                                <h5 className="text-xl mt-5 font-semibold text-white">
-                                    Grow your Experience
-                                </h5>
-                                <p className="mt-2 mb-4 text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat optio quas vero eum eligendi.
-                                </p>
-                            </div>
-                            <div className="w-full lg:w-3/12 px-4 text-center">
-                                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                                    <i className="fas fa-lightbulb text-xl"></i>
-                                </div>
-                                <h5 className="text-xl mt-5 font-semibold text-white">
-                                    Enjoy your time
-                                </h5>
-                                <p className="mt-2 mb-4 text-gray-500">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat optio quas vero eum eligendi.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </main>
         </div>
     )
 }
 
-export default Random
+export default AboutUs;

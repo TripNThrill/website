@@ -25,6 +25,7 @@ const Navbar = () => {
       </div>
       <div className='hidden md:flex justify-evenly w-3/4 font-bold text-indigo-800'>
         <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
         <Link to="/contact">Contact Us</Link>
         <Link to="/terms">Terms and Conditions</Link>
       </div>
@@ -42,6 +43,7 @@ const Navbar = () => {
       <div onClick={handleNav} className={nav ? 'z-10 absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
         <ul>
           <li className='border-b'><Link to="/">Home</Link></li>
+          <li className='border-b'><Link to="/about">About Us</Link></li>
           <li className='border-b'><Link to="/contact">Contact Us</Link></li>
           <li className='border-b'><Link to="/terms">Terms and Conditions</Link></li>
           <div className='flex justify-between my-6'>
