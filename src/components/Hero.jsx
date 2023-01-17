@@ -11,7 +11,7 @@ const Hero = () => {
           <div class="lg:mt-0 lg:flex-shrink-0">
             <div class=" inline-flex rounded-md shadow">
               <button type="button" class="py-4 px-6  bg-indigo-600 hover:bg-indigo-800 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                Exploare
+                Explore
               </button>
             </div>
             <div class="inline-flex ml-3 rounded-md shadow">

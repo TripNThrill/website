@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
-      <div class="mx-6 py-10 text-center md:text-left">
-        <div class="grid grid-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div class="col-span-2 md:col-span-1 border-4 rounded-xl">
+      <div class="mx-6 py-10 text-center">
+        <div class="grid grid-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div class="col-span-2 lg:col-span-1 border-4 rounded-xl">
             <h6 class="
             uppercase
             font-semibold
@@ -16,11 +16,12 @@ const Footer = () => {
             justify-center
             text-gray-900
           ">
-              <Link to="https://tripnthrill.com/">Trip N Thrill</Link>
+              <a href="https://tripnthrill.com/">Trip N Thrill</a>
             </h6>
             <p>
-              Welcome to our tour and travel website. We offer personalized travel experiences for all types of travelers. From luxury to budget-friendly trips. Let's plan your next adventure together!.
+              Welcome to our tour and travel website. We offer personalized travel experiences for all types of travelers.Let's plan your next adventure together !
             </p>
+            <h6 className="text-gray-900 font-bold">Follow us on </h6>
             <div class="flex flex-row justify-evenly py-2 my-2">
               <a href="https://www.facebook.com/profile.php?id=100089621763435&mibextid=LQQJ4d" target="_blank" rel="noreferrer">
                 <p class="flex items-center justify-center md:justify-start mb-4">
@@ -49,19 +50,36 @@ const Footer = () => {
               Our Company
             </h6>
             <p class="mb-4">
-              <Link to="/about" class="text-gray-600">About Us</Link>
+              <Link to="#!" class="text-gray-600">Blog</Link>
             </p>
             <p class="mb-4">
               <Link to="#!" class="text-gray-600">Careers</Link>
             </p>
             <p class="mb-4">
-              <Link to="#!" class="text-gray-600">Blog</Link>
+              <Link to="/about" class="text-gray-600">About Us</Link>
             </p>
             <p>
               <Link to="#!" class="text-gray-600">Advertising</Link>
             </p>
           </div>
           <div class="border-4 rounded-xl flex flex-col items-center justify-center">
+            <h6 class="uppercase font-semibold mb-4 text-gray-900 ">
+              Operators
+            </h6>
+            <p class="mb-4">
+              <Link to="#!" class="text-gray-600">.</Link>
+            </p>
+            <p class="mb-4">
+              <Link to="#!" class="text-gray-600">.</Link>
+            </p>
+            <p class="mb-4">
+              <Link to="/about" class="text-gray-600">.</Link>
+            </p>
+            <p>
+              <Link to="#!" class="text-gray-600">.</Link>
+            </p>
+          </div>
+          <div class="col-span-2 lg:col-span-1 border-4 rounded-xl flex flex-col items-center justify-center">
             <h6 class="uppercase font-semibold text-gray-900 mb-4">
               For Travellers
             </h6>
@@ -80,7 +98,7 @@ const Footer = () => {
           </div>
           <div className="col-span-2 md:col-span-1 border-4 rounded-xl flex flex-col items-center justify-center">
             <h6 class="uppercase font-semibold mb-4 text-gray-900">
-              Top Cities
+              Top Destinations
             </h6>
             <div className="grid gap-2 grid-cols-3 place-content-center	">
               <div className="w-16 h-auto">
@@ -117,9 +135,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="text-center p-6 bg-gray-200">
+      <div class="text-center p-6 bg-gray-300">
         <span>© 2023 Copyright:</span>
-        <Link class="text-gray-600 font-semibold" to="https://tripnthrill.com/">TripNThrill</Link>
+        <a class="text-gray-600 font-semibold" href="https://tripnthrill.com/">TripNThrill</a>
       </div>
     </footer>
   );

@@ -19,15 +19,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex w-full justify-between items-center h-20 px-4 text-#6644fa'>
+    <div className='flex w-full justify-between items-center h-20 px-4 md:bg-indigo-300'>
       <div >
         <h1><span style={{ color: '#03008d' }}><Link to="/">TripNThrill</Link></span></h1>
       </div>
-      <div className='hidden md:flex justify-evenly w-3/4 font-bold text-indigo-800'>
-        <Link to="/">Home</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact Us</Link>
-        <Link to="/terms">Terms and Conditions</Link>
+      <div className='hidden md:flex justify-end w-3/4 font-bold text-indigo-800'>
+        <Link className='mx-4' to="/">Home</Link>
+        <Link className='mx-4' to="/about">About Us</Link>
+        <Link className='mx-4' to="/contact">Contact Us</Link>
+        <Link className='mx-4' to="/terms">Terms and Conditions</Link>
       </div>
       {/* <div className='hidden md:flex'>
         <BiSearch className='' size={20} />
