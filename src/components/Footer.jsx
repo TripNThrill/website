@@ -67,16 +67,13 @@ const Footer = () => {
               Operators
             </h6>
             <p class="mb-4">
-              <Link to="#!" class="text-gray-600">About Us</Link>
+              <Link to="/about" class="text-gray-600">About Us</Link>
             </p>
             <p class="mb-4">
-              <Link to="#!" class="text-gray-600">Contact Us</Link>
+              <Link to="/contact" class="text-gray-600">Contact Us</Link>
             </p>
             <p class="mb-4">
               <Link to="/about" class="text-gray-600">Why Us ?</Link>
-            </p>
-            <p>
-              <Link to="#!" class="text-gray-600">.</Link>
             </p>
           </div>
           <div class="col-span-2 lg:col-span-1 border-4 rounded-xl flex flex-col items-center justify-center">
