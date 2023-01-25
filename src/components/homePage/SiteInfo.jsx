@@ -27,7 +27,7 @@ function SiteInfo() {
                                 <FaHeading className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Handling logistics</h4>
-                            <p className="text-gray-600 text-center">Tailor-made itineraries to suit your preferences</p>
+                            <p className="text-gray-600 text-center">Efficiently navigating the logistics landscape, delivering results beyond expectations</p>
                         </div>
 
                         {/* 2nd item */}
@@ -36,7 +36,7 @@ function SiteInfo() {
                                 <FaTrain className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Stress-free travel</h4>
-                            <p className="text-gray-600 text-center">Smooth and stress-free experience</p>
+                            <p className="text-gray-600 text-center">Experience ease and tranquility, with us by your side</p>
                         </div>
 
                         {/* 3rd item */}
@@ -45,7 +45,7 @@ function SiteInfo() {
                                 <FaCrown className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Expert travel advisors</h4>
-                            <p className="text-gray-600 text-center">Skilled and experienced in planning and organizing trips</p>
+                            <p className="text-gray-600 text-center">Expert guidance for exceptional journeys</p>
                         </div>
 
                         {/* 4th item */}
@@ -54,7 +54,7 @@ function SiteInfo() {
                                 <FaStudiovinari className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Constant support</h4>
-                            <p className="text-gray-600 text-center">Support throughout your trip</p>
+                            <p className="text-gray-600 text-center">Always here for you, providing unwavering support</p>
                         </div>
 
                         {/* 5th item */}
@@ -63,7 +63,7 @@ function SiteInfo() {
                                 <FaUserTie className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Personalized planning</h4>
-                            <p className="text-gray-600 text-center">Tailor-made itineraries to suit your preferences</p>
+                            <p className="text-gray-600 text-center">Tailored to your needs, crafted for your dreams</p>
                         </div>
 
                         {/* 6th item */}
@@ -72,7 +72,7 @@ function SiteInfo() {
                                 <FaAngellist className='icon' color='sky' />
                             </button>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Customer satisfaction</h4>
-                            <p className="text-gray-600 text-center">Priority to exceed your expectations</p>
+                            <p className="text-gray-600 text-center">We go the extra mile, for customer satisfaction every time</p>
                         </div>
 
                     </div>

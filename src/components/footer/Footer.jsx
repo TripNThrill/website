@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
+import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 // import logoImage from '../../../assets/logo.jpg'
 
 function Footer() {
@@ -36,6 +36,11 @@ function Footer() {
                                     <FaYoutube className='icon ' color='red' />
                                 </a>
                             </button>
+                            <button class="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                                <a href="https://youtube.com/" target="_blank" rel="noreferrer">
+                                    <FaLinkedinIn className='icon ' color='blue' />
+                                </a>
+                            </button>
                         </div>
                     </div>
                     <div class="col-span-1 lg:col-span-1 flex flex-col items-center justify-start">
@@ -43,13 +48,13 @@ function Footer() {
                             USEFUL LINKS
                         </h6>
                         <p class="mb-4">
-                            <Link to="/" class="text-gray-700">Home</Link>
+                            <NavLink to="/" class="text-gray-700">Home</NavLink>
                         </p>
                         <p class="mb-4">
-                            <Link to="/contact" class="text-gray-700">Contact Us</Link>
+                            <NavLink to="/contact" class="text-gray-700">Contact Us</NavLink>
                         </p>
                         <p>
-                            <Link to="/terms" class="text-gray-700">Terms</Link>
+                            <NavLink to="/terms" class="text-gray-700">Terms</NavLink>
                         </p>
                     </div>
                     <div class="col-span-1 lg:col-span-1 flex flex-col items-center justify-center">
@@ -57,13 +62,13 @@ function Footer() {
                             Operators
                         </h6>
                         <p class="mb-4">
-                            <Link to="/about" class="text-gray-700">About Us</Link>
+                            <NavLink to="/about" class="text-gray-700">About Us</NavLink>
                         </p>
                         <p class="mb-4">
-                            <Link to="/" class="text-gray-700">contact Us</Link>
+                            <NavLink to="/" class="text-gray-700">contact Us</NavLink>
                         </p>
                         <p class="mb-4">
-                            <Link to="/" class="text-gray-700">Why Us ?</Link>
+                            <NavLink to="/" class="text-gray-700">Why Us ?</NavLink>
                         </p>
                     </div>
                 </div>

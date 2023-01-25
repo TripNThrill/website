@@ -23,25 +23,45 @@ function Destination() {
                         {/* Content */}
                         <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
                             <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                                <h2 className="h3 mb-3">Glorious destinations to travel</h2>
+                                <h2 className="h3 mb-3">Glorious destinations to travel in Karnataka</h2>
                             </div>
                             {/* Tabs buttons */}
                             <div className="mb-8 md:mb-0">
                                 <div className="flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2">
-                                    <div className="font-bold leading-snug tracking-tight mx-2">Agra</div>
-                                    <div className="text-gray-600">Home of the iconic Taj Mahal, a symbol of love and one of the Seven Wonders of the World.</div>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Hampi</div>
+                                    <div className="text-gray-600">A UNESCO World Heritage Site known for its ancient temples and monuments.</div>
                                 </div>
                                 <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
-                                    <div className="font-bold leading-snug tracking-tight mx-2">Ladakh</div>
-                                    <div className="text-gray-600">A high-altitude desert area known for its rugged natural beauty and ancient Buddhist monasteries.</div>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Coorg</div>
+                                    <div className="text-gray-600">A hill station known for its coffee plantations and scenic views.</div>
                                 </div>
                                 <div className="flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2">
-                                    <div className="font-bold leading-snug tracking-tight mx-2">Goa</div>
-                                    <div className="text-gray-600">A popular beach destination known for its golden sandy beaches, delicious seafood, and vibrant nightlife.</div>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Chikmagalur</div>
+                                    <div className="text-gray-600">A hill town known for its temples and coffee plantations.</div>
                                 </div>
                                 <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
-                                    <div className="font-bold leading-snug tracking-tight mx-2">Kerala</div>
-                                    <div className="text-gray-600">Nicknamed "God's Own Country" for its stunning natural beauty, including lush green hills, tranquil backwaters, and pristine beaches.</div>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Jog Falls</div>
+                                    <div className="text-gray-600">the second-highest plunge waterfall in India.</div>
+                                </div>
+                                <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Mysore Palace</div>
+                                    <div className="text-gray-600">A historical palace and a major tourist attraction in the city of Mysore.</div>
+                                </div>
+                                <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Gokarna</div>
+                                    <div className="text-gray-600">A temple town and a popular destination for beach lovers.</div>
+                                </div>
+                                <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Bandipur National Park</div>
+                                    <div className="text-gray-600">A popular destination for wildlife and nature enthusiasts.</div>
+                                </div>
+                                <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Kabini River</div>
+                                    <div className="text-gray-600">A popular destination for river rafting and other water-based activities.</div>
+                                </div>
+                                <div className='flex flex-col md:flex-row items-center text-lg p-5 rounded border-4 mb-2'>
+                                    <div className="font-bold leading-snug tracking-tight mx-2">Bangalore</div>
+                                    <div className="text-gray-600">India's IT capital known for its gardens, museums, and nightlife.</div>
                                 </div>
                             </div>
                         </div>

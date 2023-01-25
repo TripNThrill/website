@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
 
   const handleShowNavbar = () => {
-    setShowNavbar(!showNavbar)
+    setShowNavbar(!showNavbar);
   }
 
   return (

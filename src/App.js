@@ -1,15 +1,19 @@
 import Navbar from './components/navbar/Navbar';
-// import Home from './components/homePage/Home';
+import AllRoutes from './AllRoutes';
 import Footer from './components/footer/Footer';
 import './App.css';
-import AllRoutes from './AllRoutes';
+import Chatbot from './components/ChatBot/Chatbot';
 
 function App() {
   return (
+
     <div className="App">
-      <Navbar />
-      <AllRoutes />
-      <Footer />
+      <header className="App-header">
+        <Navbar />
+        <Chatbot />
+        <AllRoutes />
+        <Footer />
+      </header>
     </div>
   );
 }

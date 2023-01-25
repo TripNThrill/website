@@ -3,7 +3,7 @@ import Hero from './Hero'
 import HeroHome from './HeroHome';
 import Destination from './Destination';
 import SiteInfo from './SiteInfo';
-import Reviews from './Reviews';
+// import Reviews from './Reviews';
 import './home.css'
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
                 <HeroHome />
                 <Destination />
                 <SiteInfo />
-                <Reviews />
+                {/* <Reviews /> */}
             </main>
         </div>
     )

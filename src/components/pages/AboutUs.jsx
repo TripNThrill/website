@@ -6,6 +6,15 @@ import sampreeth from '../../assets/sampreeth.jpg'
 import vaibhav from '../../assets/vaibhav.jpg'
 import sumukh from '../../assets/sumukh.png'
 import aman from '../../assets/aman.jpg'
+import avatar1 from '../../assets/avatar/myAvatar.png'
+import a2 from '../../assets/avatar/a2.png'
+import a3 from '../../assets/avatar/a3.png'
+import a4 from '../../assets/avatar/a4.png'
+import a5 from '../../assets/avatar/a5.png'
+import a6 from '../../assets/avatar/a6.png'
+import a7 from '../../assets/avatar/a7.png'
+import a8 from '../../assets/avatar/a8.png'
+
 
 function AboutUs() {
     return (
@@ -248,7 +257,7 @@ function AboutUs() {
                                 <div className="px-6">
                                     <img
                                         alt="..."
-                                        src={sampreeth}
+                                        src={a6}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
                                     />
@@ -266,7 +275,7 @@ function AboutUs() {
                                 <div className="px-6">
                                     <img
                                         alt="..."
-                                        src={subhendu}
+                                        src={a7}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
                                     />
@@ -285,7 +294,7 @@ function AboutUs() {
                                 <div className="px-6">
                                     <img
                                         alt="..."
-                                        src={vaibhav}
+                                        src={a8}
                                         className="shadow-lg rounded-full max-w-full mx-auto"
                                         style={{ maxWidth: "120px" }}
                                     />
@@ -318,6 +327,106 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={avatar1}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Suhas
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Blog Writer
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a2}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Ketan
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Web Developer
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a3}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Rahul
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Testing
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a4}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Tanmay
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            UI/UX
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a5}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Vishwas
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Content Writing
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
