@@ -1,20 +1,42 @@
 export const script = [
     {
         id: "BOT/intro",
-        message: "Hello there! Welcome to TripNThrill",
+        message: "Hello there! Welcome to TripNThrill. How can I assist you with your travel plans?",
         trigger: "CHOICES/intro"
     },
     {
         id: "CHOICES/intro",
         options: [
             { label: "About", trigger: "BOT/about" },
-            { label: "Tout Packages", trigger: "BOT/packages" },
+            { label: "Tour Packages", trigger: "BOT/packages" },
             { label: "App Details", trigger: "BOT/app" }
         ]
     },
     {
         id: "BOT/about",
-        message: "Our tours are carefully crafted to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over.",
+        message: "TripNThrill is a tour and travel website that offers carefully crafted tours and packages to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over.",
+        trigger: "CHOICES/again"
+    },
+    {
+        id: "BOT/packages",
+        message: "We offer a variety of tours and packages. Would you like to see our top destinations, customize your own tour, or speak with a travel specialist?",
+        trigger: "CHOICES/packages"
+    },
+    {
+        id: "CHOICES/packages",
+        options: [
+            { label: "Top Destinations", trigger: "BOT/top_destinations" },
+            { label: "Travel Specialist", trigger: "BOT/travel_specialist" }
+        ]
+    },
+    {
+        id: "BOT/top_destinations",
+        message: "Our top destinations include \n Hampi \n Coorg \n Chikmagalur \n Jog Falls \n Mysore Palace \n Gokarna \n Bandipur National Park \n Kabini River \n Bangalore \n Which destination interests you the most?",
+        trigger: "CHOICES/again"
+    },
+    {
+        id: "BOT/travel_specialist",
+        message: "Go to : support@tripnthrill.com",
         trigger: "CHOICES/again"
     },
     {

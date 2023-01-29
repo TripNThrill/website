@@ -37,7 +37,7 @@ function Footer() {
                                 </a>
                             </button>
                             <button class="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                                <a href="https://youtube.com/" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/company/tripnthrill/" target="_blank" rel="noreferrer">
                                     <FaLinkedinIn className='icon ' color='blue' />
                                 </a>
                             </button>

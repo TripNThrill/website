@@ -1,0 +1,127 @@
+.contactUsFormCareers {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e3f6ff;
+  background-size: cover;
+}
+
+.contactCareers {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.contactCareers .content {
+  /* max-width: 800px; */
+  text-align: center;
+}
+
+.contactCareers .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contactCareers .content p {
+  font-weight: 300;
+  color: #fff;
+}
+
+.div-containerCareers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.div-containerCareers .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactFormCareers {
+  width: 35%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 1.25rem;
+}
+
+.contactFormCareers h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.contactFormCareers .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactFormCareers .inputBox input,
+.contactFormCareers .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactFormCareers .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.contactFormCareers .inputBox input:focus ~ span,
+.contactFormCareers .inputBox input:valid ~ span,
+.contactFormCareers .inputBox textarea:focus ~ span,
+.contactFormCareers .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.contactFormCareers .inputBox input[type="submit"] {
+  width: 100px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .contactCareers {
+    padding: 50px;
+  }
+  .div-containerCareers {
+    flex-direction: column;
+  }
+  .contactFormCareers {
+    width: 100%;
+    padding: 40px;
+  }
+  .div-containerCareers .contactInfoCareers {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
