@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import CareerPage from './components/CareerPage/CareerPage';
 import Chatbot from './components/ChatBot/Chatbot';
 import ContactUsPage from './components/ContactUs/ContactUsPage'
+import Blogs from './components/homePage/Blogs';
 import Home from './components/homePage/Home';
 import AboutUs from './components/pages/AboutUs';
 const AllRoutes = () => {
@@ -22,6 +23,8 @@ const AllRoutes = () => {
             {/* <Route path="/terms" element={<TnC />} /> */}
             <Route exact path="/about" element={<AboutUs />} />
             <Route exact path="/careers" element={<CareerPage />} />
+            <Route exact path="/blog" element={<Blogs />} />
+            
         </Routes >
 
     )
