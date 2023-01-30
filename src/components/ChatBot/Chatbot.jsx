@@ -21,13 +21,16 @@ function Chatbot() {
         }
     })
 
+    const bubbleStyle = { backgroundColor: "#9083ff", color: "white" }
+
     return (
         <div className="chatbot-container">
             <ChatBot
                 headerTitle="Travel Bot"
-                bubbleOptionStyle={{ backgroundColor: "white", color: "black" }}
+                bubbleOptionStyle={bubbleStyle}
                 steps={stepifyScript(script)}
-                floating={true}
+                // width="500px"
+                floating="True"
             />
         </div>
     )
