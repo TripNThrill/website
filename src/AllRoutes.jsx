@@ -1,5 +1,7 @@
 import React, { useLayoutEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import CareerPage from './components/CareerPage/CareerPage';
+import Chatbot from './components/ChatBot/Chatbot';
 import ContactUsPage from './components/ContactUs/ContactUsPage'
 import Home from './components/homePage/Home';
 import AboutUs from './components/pages/AboutUs';
@@ -14,10 +16,12 @@ const AllRoutes = () => {
 
     return (
         <Routes >
+            <Route exact path="/chat" element={<Chatbot />} />
             <Route exact path="/" element={<Home />} />
             <Route exact path="/contact" element={< ContactUsPage />} />
             {/* <Route path="/terms" element={<TnC />} /> */}
             <Route exact path="/about" element={<AboutUs />} />
+            <Route exact path="/careers" element={<CareerPage />} />
         </Routes >
 
     )
