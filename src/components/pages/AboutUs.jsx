@@ -263,7 +263,7 @@ function AboutUs() {
                                             Sampreeth
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Marketing Specialist
+                                            Marketing and Business
                                         </p>
                                     </div>
                                 </div>

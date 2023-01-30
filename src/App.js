@@ -1,8 +1,8 @@
 import Navbar from './components/navbar/Navbar';
 import AllRoutes from './AllRoutes';
 import Footer from './components/footer/Footer';
-import './App.css';
 import Chatbot from './components/ChatBot/Chatbot';
+import './App.css';
 
 function App() {
   return (
