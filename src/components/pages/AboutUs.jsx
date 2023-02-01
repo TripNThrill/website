@@ -29,7 +29,7 @@ function AboutUs() {
                     </div>
                     <div className="container relative mx-auto">
                         <div className="items-center flex flex-wrap">
-                            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                            <div className="w-full px-4 ml-auto mr-auto text-center">
                                 <div className="pr-12">
                                     <h1 className="text-white font-semibold text-5xl">
                                         Your TRIP starts with us.
@@ -220,19 +220,19 @@ function AboutUs() {
 
 
                 <section className="pt-20 pb-48">
-                    <div className="container mx-auto px-4">
+                    <div className="container mx-auto px-4 flex flex-col ">
                         <div className="flex flex-wrap justify-center text-center mb-24">
-                            <div className="w-full lg:w-6/12 px-4">
+                            <div className="w-full px-4">
                                 <h2 className="text-4xl font-semibold">
                                     Here is our Team
                                 </h2>
                                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam veritatis eveniet officia accusantium at quas animi fugiat vitae veniam facilis.
+                                    "At TripNThrill, our team is dedicated to making your travel experience the best it can be. From the moment you start planning your trip to the moment you return home, our team is here to provide you with exceptional service and unforgettable memories."
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-wrap">
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-4 lg:gap-6">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -250,7 +250,7 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -263,12 +263,12 @@ function AboutUs() {
                                             Sampreeth
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Marketing and Business
+                                            Business & Marketing
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -287,7 +287,7 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -305,7 +305,7 @@ function AboutUs() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -325,7 +325,7 @@ function AboutUs() {
                                 </div>
                             </div>
 
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -338,14 +338,14 @@ function AboutUs() {
                                             Suhas
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Blog Writer
+                                            Business and Admin
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -365,7 +365,7 @@ function AboutUs() {
                             </div>
 
 
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -385,7 +385,7 @@ function AboutUs() {
                             </div>
 
 
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
@@ -405,7 +405,7 @@ function AboutUs() {
                             </div>
 
 
-                            <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                            <div className="w-full lg:mb-0 mb-12 px-4">
                                 <div className="px-6">
                                     <img
                                         alt="..."
