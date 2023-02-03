@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link to="/careers">Careers</Link>
             </li>
             <li>
-              <Link to="/terms">Terms & Conditions</Link>
+              <Link to="/oprators">Oprators</Link>
             </li>
           </ul>
         </div>

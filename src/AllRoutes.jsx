@@ -6,6 +6,8 @@ import ContactUsPage from './components/ContactUs/ContactUsPage'
 import Blogs from './components/homePage/Blogs';
 import Home from './components/homePage/Home';
 import AboutUs from './components/pages/AboutUs';
+import OperatorsPage from './components/pages/OperatorsPage';
+import TnC from './components/pages/TnC';
 const AllRoutes = () => {
 
     const location = useLocation();
@@ -20,11 +22,12 @@ const AllRoutes = () => {
             <Route exact path="/chat" element={<Chatbot />} />
             <Route exact path="/" element={<Home />} />
             <Route exact path="/contact" element={< ContactUsPage />} />
-            {/* <Route path="/terms" element={<TnC />} /> */}
+            <Route path="/terms" element={<TnC />} />
             <Route exact path="/about" element={<AboutUs />} />
             <Route exact path="/careers" element={<CareerPage />} />
+            <Route exact path="/oprators" element={<OperatorsPage />} />
             <Route exact path="/blog" element={<Blogs />} />
-            
+
         </Routes >
 
     )

@@ -16,19 +16,19 @@ export const script = [
             { label: "Refunds", trigger: "BOT/refunds" },
             { label: "Offers", trigger: "BOT/offers" },
             { label: "Pick-up and Drop Enquiry", trigger: "USER/pickup" },
+            { label: "Insurance", trigger: "BOT/insurance" },
             { label: "Private Driver/Guide Enquiry", trigger: "USER/driver-guide" },
             { label: "Payment Options", trigger: "BOT/payment" },
-            { label: "Insurance", trigger: "BOT/insurance" },
             { label: "Coins and Referral", trigger: "BOT/coins-referral" },
+            { label: "Enquiry about rentals", trigger: "BOT/rentals" },
             { label: "Report a problem/inconvenience/bug", trigger: "BOT/report" },
             { label: "Feedback/Suggestions", trigger: "BOT/feedback" },
-            { label: "Enquiry about rentals", trigger: "BOT/rentals" },
             { label: "Custom Query", trigger: "BOT/custom_query" }
         ]
     },
     {
         id: "BOT/about",
-        message: "TripNThrill is a tour and travel website that offers carefully crafted tours and packages to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over.",
+        message: "TripNThrill is a tour and travel website that offers carefully crafted tours and packages to provide the perfect balance of relaxation and excitement.",
         trigger: "CHOICES/again"
     },
     {

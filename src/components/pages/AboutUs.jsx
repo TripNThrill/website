@@ -39,7 +39,6 @@ function AboutUs() {
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div
@@ -419,6 +418,25 @@ function AboutUs() {
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Content Writing
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a6}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Neema
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Backend
                                         </p>
                                     </div>
                                 </div>

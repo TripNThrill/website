@@ -30,7 +30,7 @@ function Chatbot() {
 
     const bubbleStyle = {
         // width: '70%'
-        margin: '0'
+        // marginBottom: '100px'
     }
 
     return (
@@ -40,7 +40,7 @@ function Chatbot() {
                 bubbleOptionStyle={bubbleOStyle}
                 bubbleStyle={bubbleStyle}
                 steps={stepifyScript(script)}
-                // width="500px"
+                width='400px'
                 floating="True"
             />
         </div>
