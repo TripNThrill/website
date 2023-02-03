@@ -47,7 +47,7 @@ export default function Perks() {
     };
 
     return (
-        <div className="px-[20%] mt-[8rem] mb-[8rem] max-w-7xl lg:mb-[0] lg:pb-[15rem] lg:mt-[0] lg:pt-[15rem] bg-[#E1D7C6]">
+        <div className="px-[20%] pt-[8rem] pb-[8rem] max-w-7xl lg:mb-[0] lg:pb-[15rem] lg:mt-[0] lg:pt-[15rem] bg-[#E1D7C6]">
             <div>
                 <motion.h2
                     ref={ref}
@@ -70,49 +70,49 @@ export default function Perks() {
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Unlimited Holiday</h2>
+                    <h3>Employee Training</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Competitive Salary</h2>
+                    <h3>Competitive Salary</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Stock Options</h2>
+                    <h3>Stock Options</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>In-house Bar</h2>
+                    <h3> Supportive Work Environment</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Growth</h2>
+                    <h3>Growth</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Private Healthcare</h2>
+                    <h3>Private Healthcare</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Work from Home</h2>
+                    <h3>Work from Home</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h2>Retirement</h2>
+                    <h3>Retirement</h3>
                 </motion.div>
             </motion.div>
         </div>
