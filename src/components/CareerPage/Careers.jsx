@@ -26,7 +26,7 @@ function Careers() {
                 Explore Exciting Career Opportunities in the World of Travel and Tourism
             </motion.p>
             <motion.a
-                href="#jobs"
+                href="#joblist"
                 key="logo"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

@@ -1,14 +1,16 @@
 import React from 'react'
 import Benifits from './Benifits'
+import CareerAbout from './CareerAbout'
 import Careers from './Careers'
-import CIntro from './CIntro'
+// import CIntro from './CIntro'
 import JobList from './JobListing/JobList'
 
 function CareerPage() {
     return (
         <div>
             <Careers />
-            <CIntro />
+            <CareerAbout />
+            {/* <CIntro /> */}
             <Benifits />
             <JobList />
         </div>

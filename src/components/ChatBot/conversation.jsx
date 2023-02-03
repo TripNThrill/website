@@ -14,16 +14,21 @@ export const script = [
             { label: "Tour Packages", trigger: "BOT/packages" },
             { label: "App Details", trigger: "BOT/app" },
             { label: "Refunds", trigger: "BOT/refunds" },
+            { label: "Offers", trigger: "BOT/offers" },
             { label: "Pick-up and Drop Enquiry", trigger: "USER/pickup" },
+            { label: "Insurance", trigger: "BOT/insurance" },
             { label: "Private Driver/Guide Enquiry", trigger: "USER/driver-guide" },
             { label: "Payment Options", trigger: "BOT/payment" },
-            { label: "Insurance", trigger: "BOT/insurance" },
-            { label: "Offers", trigger: "BOT/offers" },
+            { label: "Coins and Referral", trigger: "BOT/coins-referral" },
+            { label: "Enquiry about rentals", trigger: "BOT/rentals" },
+            { label: "Report a problem/inconvenience/bug", trigger: "BOT/report" },
+            { label: "Feedback/Suggestions", trigger: "BOT/feedback" },
+            { label: "Custom Query", trigger: "BOT/custom_query" }
         ]
     },
     {
         id: "BOT/about",
-        message: "TripNThrill is a tour and travel website that offers carefully crafted tours and packages to provide the perfect balance of relaxation and excitement. We offer luxurious accommodations, unparalleled sightseeing opportunities, and authentic local experiences that will stay with you long after your trip is over.",
+        message: "TripNThrill is a tour and travel website that offers carefully crafted tours and packages to provide the perfect balance of relaxation and excitement.",
         trigger: "CHOICES/again"
     },
     {
@@ -264,8 +269,131 @@ export const script = [
 
     // End ChatBot Flow for - Offers
 
+
+    // Start ChatBot Flow for - Report a problem/inconvenience/bug
+
+    {
+        id: "BOT/report",
+        message: "We're sorry to hear that. Could you please describe the issue you are facing?",
+        trigger: "USER/report-desc"
+    },
+    {
+        id: "USER/report-desc",
+        user: true,
+        message: "",
+        trigger: "BOT/report-ack"
+    },
+    {
+        id: "BOT/report-ack",
+        message: "Thank you for reporting the issue. Our team will look into it and try to resolve it as soon as possible.",
+        trigger: "CHOICES/again"
+    },
+
+
+    // End ChatBot Flow for - Report a problem/inconvenience/bug
+
+
+    // Start ChatBot Flow for - Feedback/Suggestions
+
+    {
+        id: "BOT/feedback",
+        message: "We would love to hear from you! How was your experience with us? Do you have any feedback or suggestions for us?",
+        trigger: "USER/feedback-desc"
+    },
+    {
+        id: "USER/feedback-desc",
+        user: true,
+        message: "",
+        trigger: "BOT/feedback-ack"
+    },
+    {
+        id: "BOT/feedback-ack",
+        message: "Thank you for your feedback. Your thoughts and suggestions are valuable to us and help us improve our services.",
+        trigger: "CHOICES/again"
+    },
+
+
+    // End ChatBot Flow for - Feedback/Suggestions
+
+
+    // Start ChatBot Flow for - Coins and Referral
+
+    {
+        id: "BOT/coins-referral",
+        message: "We offer a referral program and coins system to reward our customers. Would you like to know more?",
+        trigger: "CHOICES/coins-referral-details"
+    },
+    {
+        id: "CHOICES/coins-referral-details",
+        options: [
+            { label: "Tell me more about coins", trigger: "BOT/coins-info" },
+            { label: "Tell me more about referral", trigger: "BOT/referral-info" }
+        ]
+    },
+    {
+        id: "BOT/coins-info",
+        message: "You can earn coins by booking tours and referring friends to TripNThrill. These coins can be redeemed for discounts on future bookings.",
+        trigger: "CHOICES/referral-or-back"
+    },
+    {
+        id: "BOT/referral-info",
+        message: "Our referral program allows you to earn rewards by referring your friends and family to TripNThrill. For every successful referral, both you and your friend will receive a discount on your next booking.",
+        trigger: "CHOICES/referral-or-back"
+    },
+    {
+        id: "CHOICES/referral-or-back",
+        options: [
+            { label: "Refer a friend now", trigger: "BOT/refer-now" },
+            { label: "Go back to main menu", trigger: "CHOICES/again" }
+        ]
+    },
+    {
+        id: "BOT/refer-now",
+        message: "You can refer a friend from the 'Rewards' section in your TripNThrill account. Get started today!",
+        trigger: "CHOICES/again"
+    },
+
+    // End ChatBot Flow for - Coins and Referral
+
+    // Start ChatBot Flow for - Enquiry about rentals
+
+    {
+        id: "BOT/rentals",
+        message: "We offer a variety of rental options to make your trip more convenient and enjoyable. Our rentals include cars, bicycles, and more.",
+        trigger: "CHOICES/again"
+    },
+
+    // End ChatBot Flow for - Enquiry about rentals
+
+    // Start ChatBot Flow for - Custom Query
+
+    {
+        id: "BOT/custom_query",
+        message: "Is there anything else you would like to know about TripNThrill? Please send us your query.",
+        trigger: "CHOICES/custom_query"
+    },
+    {
+        id: "CHOICES/custom_query",
+        options: [
+            { label: "Yes", trigger: "USER/custom_query_yes" },
+            { label: "No", trigger: "CHOICES/again" }
+        ]
+    },
+    {
+        id: "USER/custom_query_yes",
+        user: true,
+        trigger: "BOT/custom_query_answer"
+    },
+    {
+        id: "BOT/custom_query_answer",
+        message: "I have got your query.I will get back to you soon!",
+        trigger: "CHOICES/again"
+    },
+
+    // End ChatBot Flow for - Custom Query
+
     {
         id: "CHOICES/again",
-        options: [{ label: "Ask again...?", trigger: "BOT/intro" }]
+        options: [{ label: "Main Menu", trigger: "CHOICES/intro" }]
     },
 ];
