@@ -11,6 +11,7 @@ import a5 from '../../assets/avatar/a5.png'
 import a6 from '../../assets/avatar/a6.png'
 import a7 from '../../assets/avatar/a7.png'
 import a8 from '../../assets/avatar/a8.png'
+import a9 from '../../assets/avatar/a9.png'
 
 
 function AboutUs() {
@@ -73,7 +74,8 @@ function AboutUs() {
                                         </div>
                                         <h6 className="text-xl font-semibold">Trusted Agency</h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            At TripNThrill, we provide exceptional travel experiences for over many years. Our mission is to provide our customers with high-quality, immersive travel experiences that allow them to truly discover and connect with the places they visit.
+                                            At TripNThrill, exceptional travel experiences for many years.
+                                            Our mission is to offer high-quality, immersive experiences for customers to discover and connect with the places they visit.
                                         </p>
                                     </div>
                                 </div>
@@ -89,7 +91,7 @@ function AboutUs() {
                                             Offers
                                         </h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            We offer a wide range of tours, from exotic and adventurous destinations to more relaxed and scenic getaways. Our experienced and knowledgeable tour guides are dedicated to ensuring that each and every one of our customers has a trip of a lifetime.
+                                            Discover exciting destinations with us. Expert guides ensure a trip of a lifetime.
                                         </p>
                                     </div>
                                 </div>
@@ -105,7 +107,7 @@ function AboutUs() {
                                             Why Us ?
                                         </h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            Our team of experienced travel professionals is dedicated to providing the highest level of customer service and attention to detail. From the moment you start planning your trip until the time you return home, we are here to help you every step of the way.
+                                            Experience top-notch service with our expert travel team. From planning to returning, we're here to guide you every step of the way.
                                         </p>
                                     </div>
                                 </div>
@@ -121,11 +123,39 @@ function AboutUs() {
                                             Why Travelling with us is a pleasure
                                         </h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            Our trips are designed to be an authentic and immersive experience, giving you the opportunity to truly connect with the culture, people, and landscapes of the destinations we visit. Whether you're a solo traveler, a couple, or a family, we have something for everyone.
+                                            Connect with destinations authentically with TripNThrill. Experience tailored trips for solo, couple or family travelers.
                                         </p>
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                    <div className="px-4 py-5 flex-auto">
+                                        <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                                            <i className="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <h6 className="text-xl font-semibold">Expert Local Guides</h6>
+                                        <p className="mt-2 mb-4 text-gray-600">
+                                            Discover destinations like a local with our passionate and knowledgeable guides. Experience unique insights and authentic moments on your trip with TripNThrill.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                                    <div className="px-4 py-5 flex-auto">
+                                        <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                                            <i className="fas fa-plane"></i>
+                                        </div>
+                                        <h6 className="text-xl font-semibold">Worldwide Destinations</h6>
+                                        <p className="mt-2 mb-4 text-gray-600">
+                                            Discover a world of travel destinations with TripNThrill, from popular hotspots to off-the-grid locations. Choose your perfect getaway, be it a beach escape, a city adventure, or a heart-racing experience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -162,9 +192,6 @@ function AboutUs() {
                             </div>
                             <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                                 <div className="md:pr-12">
-                                    <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-                                        <i className="fas fa-rocket text-xl"></i>
-                                    </div>
                                     <h3 className="text-3xl font-semibold">
                                         A growing company
                                     </h3>
@@ -176,7 +203,7 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="fas fa-fingerprint"></i>
+                                                        <i className="fas fa-pencil-ruler"></i>
                                                     </span>
                                                 </div>
                                                 <div>
@@ -190,7 +217,7 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="fab fa-html5"></i>
+                                                        <i className="fas fa-globe-americas"></i>
                                                     </span>
                                                 </div>
                                                 <div>
@@ -202,7 +229,7 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="far fa-paper-plane"></i>
+                                                        <i className="fas fa-random"></i>
                                                     </span>
                                                 </div>
                                                 <div>
@@ -277,7 +304,7 @@ function AboutUs() {
                                     />
                                     <div className="pt-6 text-center">
                                         <h5 className="text-xl font-bold">
-                                            Shubhendu
+                                            Subhendu
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             App Developer
@@ -437,6 +464,25 @@ function AboutUs() {
                                         </h5>
                                         <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                                             Backend
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full lg:mb-0 mb-12 px-4">
+                                <div className="px-6">
+                                    <img
+                                        alt="..."
+                                        src={a9}
+                                        className="shadow-lg rounded-full max-w-full mx-auto"
+                                        style={{ maxWidth: "120px" }}
+                                    />
+                                    <div className="pt-6 text-center">
+                                        <h5 className="text-xl font-bold">
+                                            Mani
+                                        </h5>
+                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                                            Blogger
                                         </p>
                                     </div>
                                 </div>
