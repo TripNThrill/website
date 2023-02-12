@@ -20,7 +20,7 @@ function OpreatorContact() {
                                                 <FaHeadset />
                                             </div>
                                         </div>
-                                        <div class="grow ml-6">
+                                        <div class="grow ml-2 md:ml-6">
                                             <p class="font-bold mb-1">Technical support</p>
                                             <p class="text-gray-500">support@tripnthrill.com</p>
 
@@ -34,7 +34,7 @@ function OpreatorContact() {
                                                 <FaDollarSign />
                                             </div>
                                         </div>
-                                        <div class="grow ml-6">
+                                        <div class="grow ml-2 md:ml-6">
                                             <p class="font-bold mb-1">Sales questions</p>
                                             <p class="text-gray-500">sales@tripnthrill.com</p>
 
@@ -48,7 +48,7 @@ function OpreatorContact() {
                                                 <FaNewspaper />
                                             </div>
                                         </div>
-                                        <div class="grow ml-6">
+                                        <div class="grow ml-2 md:ml-6">
                                             <p class="font-bold mb-1">Press</p>
                                             <p class="text-gray-500">press@tripnthrill.com</p>
 
@@ -62,7 +62,7 @@ function OpreatorContact() {
                                                 <FaBug />
                                             </div>
                                         </div>
-                                        <div class="grow ml-6">
+                                        <div class="grow ml-2 md:ml-6">
                                             <p class="font-bold mb-1">Bug report</p>
                                             <p class="text-gray-500">bugs@tripnthrill.com</p>
 
@@ -87,7 +87,7 @@ function OpreatorContact() {
                     <div className="mt-8">
                         <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
                         <textarea
-                            className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                            className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline resize-none"></textarea>
                     </div>
                     <div className="mt-8">
                         <button

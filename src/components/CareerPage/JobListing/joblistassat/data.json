@@ -17,14 +17,14 @@
   "company": "TripNThrill",
   "isNew": true,
   "featured": false,
-  "position": "Backend Developer",
-  "role": "Backend",
-  "level": "Midweight",
+  "position": "Flutter Developer",
+  "role": "Flutter",
+  "level": "Begenier",
   "postedAt": "1d ago",
   "contract": "Part Time",
   "location": "Remote",
-  "languages": ["Python","React","MySql","Node"],
-  "tools": ["React"]
+  "languages": ["Flutter"],
+  "tools": ["Android Studio"]
 },
 {
   "id": 3,

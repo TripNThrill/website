@@ -13,11 +13,11 @@ const jobBoardComponent = ({ job: { logo, company, location, postedAt, contract,
             <div className={`flex flex-col align-items-center bg-white shadow-lg my-16 mx-6 p-6 rounded ${featured ? 'border-l-4 border-teal-500' : ''} lg:flex-row  lg:my-4 `} >
                 <div className="ml-4 flex flex-col flex-wrap justify-between " >
                     <h3 className="font-bold text-[#9083ff]">
-                        <p className="inline cursor-pointer" onClick={() => window.location = 'mailto:yourmail@domain.com'}>{company}</p>
+                        <p className="inline ">{company}</p>
                         {isNew && <span className=" m-2  py-1 px-2 font-bold  text-sm  rounded-full text-[#13005A] bg-[#9083ff]">New</span>}
                         {featured && <span className=" m-2  py-1 px-2 font-bold  text-sm  rounded-full text-white bg-black" >Featured</span>}
                     </h3>
-                    <h2 className="text-lg font-bold my-2 ">{position}</h2>
+                    <h2 className="text-lg font-bold my-2 cursor-pointer" onClick={() => window.location = 'mailto:support@tripnthrill.com'}>{position}</h2>
                     <p className="text-gray-600">
                         {postedAt} · {contract} ·  {location}
                     </p>

@@ -68,7 +68,7 @@ function Footer() {
                             <NavLink to="/" class="text-gray-700">contact Us</NavLink>
                         </p>
                         <p class="mb-4">
-                            <NavLink to="/" class="text-gray-700">Why Us ?</NavLink>
+                            <NavLink to="/why" class="text-gray-700">Why Us ?</NavLink>
                         </p>
                     </div>
                 </div>

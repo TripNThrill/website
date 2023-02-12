@@ -13,11 +13,11 @@ function Home() {
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Hero />
       <main className="flex-grow">
+        <WhatWeDo />
+        <Bottom />
         <HeroHome />
         <Destination />
         <SiteInfo />
-        <WhatWeDo />
-        <Bottom />
 
         {/* <Reviews /> */}
       </main>
