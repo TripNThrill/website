@@ -8,6 +8,7 @@ import Home from './components/homePage/Home';
 import AboutUs from './components/pages/AboutUs';
 import OperatorsPage from './components/pages/OperatorsPage';
 import TnC from './components/pages/TnC';
+import WhyUs from './components/pages/WhyUs';
 const AllRoutes = () => {
 
     const location = useLocation();
@@ -27,6 +28,7 @@ const AllRoutes = () => {
             <Route exact path="/careers" element={<CareerPage />} />
             <Route exact path="/oprators" element={<OperatorsPage />} />
             <Route exact path="/blog" element={<Blogs />} />
+            <Route exact path="/why" element={<WhyUs />} />
 
         </Routes >
 
