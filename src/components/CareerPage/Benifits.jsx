@@ -82,7 +82,7 @@ export default function Perks() {
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h3>Stock Options</h3>
+                    <h3>Social events</h3>
                 </motion.div>
                 <motion.div
                     variants={item}
@@ -100,7 +100,7 @@ export default function Perks() {
                     variants={item}
                     className="rounded-md bg-[#e2e8f0] py-4 px-4"
                 >
-                    <h3>Private Healthcare</h3>
+                    <h3>Employee recognition</h3>
                 </motion.div>
                 <motion.div
                     variants={item}

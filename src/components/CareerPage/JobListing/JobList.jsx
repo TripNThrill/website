@@ -55,6 +55,16 @@ function JobList() {
                 >
                     Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work.
                 </motion.p>
+                <motion.p
+                    key="logo"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.4, delay: 0.9 }}
+                    className="mb-6 text-base font-normal text-gray-500 lg:text-lg sm:px-16 xl:px-48"
+                >
+                    To apply for a position at TripNThrill, please send your resume and a cover letter to <span className='cursor-pointer text-black bold' onClick={() => window.location = 'mailto:support@tripnthrill.com'}>support@tripnthrill.com</span>. Be sure to include the position you're applying for in the subject line.
+                    Thank you for considering TripNThrill as your next career move. We look forward to hearing from you!
+                </motion.p>
             </header>
             <div className="mx-auto w-[80%]">
                 {

@@ -27,7 +27,7 @@ const WhatWeDo = () => {
                                 <div className="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                     <MdTravelExplore size={36} />
                                 </div>
-                                <h3 className='text-3xl font-semibold text-white'>Where is your next trip?</h3>
+                                <h1 className='text-3xl md:text-5xl font-semibold text-black'>Where is your next trip?</h1>
                                 <p className='mt-4 text-lg leading-relaxed text-gray-500'>
                                     Tell us what you enjoy the most. Our Artificial Intelligence will curate an itinerary matching all your needs.
                                 </p>

@@ -52,7 +52,7 @@ function ContactUsForm() {
                                 <div className="icon"><FaMobileAlt className='icon' /></div>
                                 <div className="text">
                                     <h3>Phone</h3>
-                                    <p>+91 9148939841</p>
+                                    <p><a href="tel:+919148939841">+91 9148939841</a></p>
                                 </div>
                             </div>
                             <div className="box">

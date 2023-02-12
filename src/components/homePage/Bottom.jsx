@@ -10,7 +10,7 @@ const Bottom = () => {
             src="https://source.unsplash.com/iUBgeNeyVy8"
             alt="Ad- woman on a beach"
           />
-          <h1 className="mt-5 font-bold text-lg lg:mt-7">
+          <h1 className="mt-5 font-bold text-3xl lg:mt-7">
             You can now plan your trip's from home!
           </h1>
           <p className="font-bold text-sm text-gray-600">
