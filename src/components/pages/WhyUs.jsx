@@ -28,6 +28,27 @@ const features = [
     },
 ]
 
+// const whyus = [
+//     {
+//       title:"Your title here",
+//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+//       image:"/assets/images/feature.svg",
+//       imageAlt:"First feature alt text"
+//     },
+//     {
+//       title:"Your title here",
+//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+//       image:"/assets/images/feature2.svg",
+//       imageAlt:"Second feature alt text",
+//     },
+//     {
+//       title:"Your title here",
+//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
+//       image:"/assets/images/feature3.svg",
+//       imageAlt:"Third feature alt text"
+//     }
+// ];
+
 function WhyUs() {
     return (
         <div className="bg-white py-24 sm:py-32">

@@ -1,13 +1,10 @@
 import React from 'react'
-import homepage from '../../assets/homepage.png'
+import homepage from '../../assets/homeImg/homepage.png'
 
 function Hero() {
     return (
         // <section className="relative">
-        <div className='flex flex-col items-center w-full sm:h-screen md:flex-row bg-[#FBF1D3]'>
-            <div className="lg:w-4/12 sm:w-full">
-                <img className='' src={homepage} alt="/" />
-            </div>
+        <div className='flex flex-col-reverse items-center w-full sm:h-screen md:flex-row bg-[#FBF1D3]'>
             <div className='justify-center text-center mx-4 py-4 lg:w-1/2 sm:lg:w-full'>
                 <div className='flex flex-col md:p-8 md:m-8'>
                     <h1 className='font-sans intro-title'>Explore the World with Us</h1>
@@ -26,6 +23,9 @@ function Hero() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="md:w-1/3 sm:max-w-full">
+                <img className='' src={homepage} alt="/" />
             </div>
         </div>
         // </section>

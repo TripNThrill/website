@@ -23,22 +23,22 @@ const Navbar = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog">BLOG</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/careers">CAREERS</Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/oprators">OPERATORS</Link>
             </li>
             <li>
-              <Link to="/careers">Careers</Link>
+              <Link to="/about">ABOUT</Link>
             </li>
             <li>
-              <Link to="/oprators">Operators</Link>
+              <Link to="/contact">CONTACT</Link>
             </li>
           </ul>
         </div>

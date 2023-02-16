@@ -33,7 +33,7 @@ function HeroHome() {
                     <div className="text-center pb-12 md:pb-16">
                         <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-[#d37d26]" data-aos="zoom-y-out">Make your tour <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#6ea0ff] to-[#002462]">wonderful</span></h1>
                         <div className="max-w-3xl mx-auto">
-                            <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Experience the best of your destination with our tailor-made tours. From luxurious stays to unique experiences, we'll make sure your trip is wonderful. Let us plan your dream vacation, filled with cultural immersion and lasting memories.</p>
+                            <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Customize your dream vacation with our tailored tours. Indulge in luxury and create unforgettable memories with unique experiences</p>
                         </div>
                     </div>
 
