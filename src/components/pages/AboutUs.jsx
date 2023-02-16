@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa'
 import appDesign from '../../assets/appDesign.png'
 import travel from '../../assets/travelempty.jpg'
 import sumukh from '../../assets/sumukh.png'
@@ -245,251 +246,274 @@ function AboutUs() {
                 </section>
 
 
-                <section className="pt-20 pb-48">
-                    <div className="container mx-auto px-4 flex flex-col ">
-                        <div className="flex flex-wrap justify-center text-center mb-24">
-                            <div className="w-full px-4">
-                                <h2 className="text-4xl font-semibold">
-                                    Here is our Team
-                                </h2>
-                                <p className="text-lg leading-relaxed m-4 text-gray-600">
-                                    "At TripNThrill, our team is dedicated to making your travel experience the best it can be. From the moment you start planning your trip to the moment you return home, our team is here to provide you with exceptional service and unforgettable memories."
-                                </p>
+                <section className="bg-white container flex-col">
+                    <div className=" px-6 py-10 mx-auto">
+                        <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">Our Team</h1>
+
+                        <p className="max-w-2xl mx-auto my-6 text-center text-gray-500">
+                            Our team is here to provide you with exceptional service and unforgettable memories
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={sumukh} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Sumukh YR</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">FOUNDER AND CEO</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
                         </div>
-                        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-4 lg:grid-cols-4 lg:gap-6">
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={sumukh}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Sumukh YR
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            FOUNDER AND CEO
-                                        </p>
-                                    </div>
-                                </div>
+
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a6} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Sampreeth</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Business & Marketing</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a6}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Sampreeth
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Business & Marketing
-                                        </p>
-                                    </div>
-                                </div>
+                        </div>
+
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a7} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Subhendu</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">App Developer</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a7}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Subhendu
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            App Developer
-                                        </p>
+                        </div>
 
-                                    </div>
-                                </div>
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a8} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Vaibhav</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Frontend Developer</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a8}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Vaibhav
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Frontend Developer
-                                        </p>
-                                    </div>
-                                </div>
+                        </div>
+
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={aman} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Aman Verma</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Frontend Developer</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={aman}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Aman Verma
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Frontend Developer
-                                        </p>
+                        </div>
 
-                                    </div>
-                                </div>
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={avatar1} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Suhas</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Business and Admin</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={avatar1}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Suhas
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Business and Admin
-                                        </p>
-                                    </div>
-                                </div>
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a2} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Ketan</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Web Developer</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a3} alt="" />
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a2}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Ketan
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Web Developer
-                                        </p>
-                                    </div>
-                                </div>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Rahul</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Testing</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a4} alt="" />
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a3}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Rahul
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Testing
-                                        </p>
-                                    </div>
-                                </div>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Tanmay</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">UI/UX</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a5} alt="" />
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a4}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Tanmay
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            UI/UX
-                                        </p>
-                                    </div>
-                                </div>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Vishwas</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Content Writing</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a6} alt="" />
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a5}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Vishwas
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Content Writing
-                                        </p>
-                                    </div>
-                                </div>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Neema</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Backend</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
+                        </div>
 
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a6}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Neema
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Backend
-                                        </p>
-                                    </div>
-                                </div>
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a9} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Mani</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">Blogger</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaGithub />
+                                </a>
                             </div>
-
-                            <div className="w-full lg:mb-0 mb-12 px-4">
-                                <div className="px-6">
-                                    <img
-                                        alt="..."
-                                        src={a9}
-                                        className="shadow-lg rounded-full max-w-full mx-auto"
-                                        style={{ maxWidth: "120px" }}
-                                    />
-                                    <div className="pt-6 text-center">
-                                        <h5 className="text-xl font-bold">
-                                            Mani
-                                        </h5>
-                                        <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                            Blogger
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
+
                 </section>
             </main>
         </div>
