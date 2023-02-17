@@ -9,11 +9,7 @@ function OperatorsPage() {
     return (
         <div className="">
 
-            <div className="relative pt-16 pb-32 flex content-center items-center justify-center"
-                style={{
-                    minHeight: "70vh"
-                }}>
-
+            <div className="relative pt-16 pb-32 flex content-center items-center justify-center">
 
                 <div className="absolute top-0 w-full h-full bg-center bg-cover"
                     style={{
@@ -24,7 +20,7 @@ function OperatorsPage() {
                 <div className="container relative px-5 pt-32 mx-auto lg:px-4 lg:py-4">
                     <div className="flex flex-col w-full mb-2 text-center ">
                         <h1 className="mb-2 text-5xl font-bold tracking-tighter text-white lg:text-7xl md:text-5xl">
-                            <span>Are You a OPERATOR ?</span>
+                            <span>Are you an OPERATOR ?</span>
                         </h1>
                         <br></br>
                         <p className="mx-auto  md:text-xl font-normal leading-relaxed text-gray-700 dark:text-gray-300 lg:w-2/3">

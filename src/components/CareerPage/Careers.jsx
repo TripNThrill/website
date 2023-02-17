@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import './careers.css'
+import './careers.css';
 
 function Careers() {
 
     return (
-        <div className="mx-auto mt-20 mb-[7rem] justify-center space-y-3 lg:space-y-6 pt-4 text-center md:px-6 lg:mt-[0] lg:pt-[11rem] lg:mb-[0] lg:pb-[14.5rem] bg-[#9083ff]">
+        <div className="mx-auto md:mt-20 md:mb-[7rem] justify-center space-y-3 lg:space-y-6 py-4 text-center md:px-6 lg:mt-[0] lg:pt-[11rem] lg:mb-[0] lg:pb-[14.5rem] bg-[#9083ff]">
             <motion.h1
                 key="logo"
                 initial={{ opacity: 0 }}
@@ -31,7 +31,7 @@ function Careers() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.4, delay: 1 }}
-                className="inline-flex items-center rounded-lg bg-[#f3b800] py-3 px-4 text-[#220a00]"
+                className="inline-flex items-center cursor-pointer rounded-lg bg-[#f3b800] py-3 px-4 text-[#220a00]"
             >
                 See open positions{" "}
                 <svg

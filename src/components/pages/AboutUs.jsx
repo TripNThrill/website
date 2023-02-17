@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaInstagram, FaFacebook, FaGithub } from 'react-icons/fa'
+import {
+    FaInstagram, FaFacebook, FaLinkedinIn, FaCertificate, FaMoneyBillAlt, FaQuestionCircle, FaHeart, FaCompass, FaGlobe, FaPuzzlePiece, FaMountain, FaExchangeAlt
+} from 'react-icons/fa'
 import appDesign from '../../assets/appDesign.png'
 import travel from '../../assets/travelempty.jpg'
 import sumukh from '../../assets/sumukh.png'
@@ -13,6 +15,7 @@ import a6 from '../../assets/avatar/a6.png'
 import a7 from '../../assets/avatar/a7.png'
 import a8 from '../../assets/avatar/a8.png'
 import a9 from '../../assets/avatar/a9.png'
+import a10 from '../../assets/avatar/a10.png'
 
 
 function AboutUs() {
@@ -67,26 +70,26 @@ function AboutUs() {
                 <section className="pb-20 bg-gray-300 -mt-24">
                     <div className="container mx-auto px-4">
                         <div className="flex flex-wrap">
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                                            <i className="fas fa-award"></i>
+                                            <FaCertificate />
                                         </div>
                                         <h6 className="text-xl font-semibold">Trusted Agency</h6>
                                         <p className="mt-2 mb-4 text-gray-600">
                                             At TripNThrill, exceptional travel experiences for many years.
-                                            Our mission is to offer high-quality, immersive experiences for customers to discover and connect with the places they visit.
+                                            Our mission is to offer high-quality, immersive experiences for customers.
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="w-full md:w-4/12 px-4 text-center">
+                            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                                            <i className="fas fa-retweet"></i>
+                                            <FaMoneyBillAlt />
                                         </div>
                                         <h6 className="text-xl font-semibold">
                                             Offers
@@ -100,9 +103,9 @@ function AboutUs() {
 
                             <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                                            <i className="fas fa-fingerprint"></i>
+                                            <FaQuestionCircle />
                                         </div>
                                         <h6 className="text-xl font-semibold">
                                             Why Us ?
@@ -116,9 +119,9 @@ function AboutUs() {
 
                             <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                                            <i className="fas fa-fingerprint"></i>
+                                            <FaHeart />
                                         </div>
                                         <h6 className="text-xl font-semibold">
                                             Why Travelling with us is a pleasure
@@ -130,28 +133,28 @@ function AboutUs() {
                                 </div>
                             </div>
 
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                                            <i className="fas fa-map-marker-alt"></i>
+                                            <FaCompass />
                                         </div>
                                         <h6 className="text-xl font-semibold">Expert Local Guides</h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            Discover destinations like a local with our passionate and knowledgeable guides. Experience unique insights and authentic moments on your trip with TripNThrill.
+                                            Discover destinations like a local with our passionate and knowledgeable guides.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
-                                    <div className="px-4 py-5 flex-auto">
+                                    <div className="px-4 py-5 flex-auto min-h-[300px]">
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                                            <i className="fas fa-plane"></i>
+                                            <FaGlobe />
                                         </div>
                                         <h6 className="text-xl font-semibold">Worldwide Destinations</h6>
                                         <p className="mt-2 mb-4 text-gray-600">
-                                            Discover a world of travel destinations with TripNThrill, from popular hotspots to off-the-grid locations. Choose your perfect getaway, be it a beach escape, a city adventure, or a heart-racing experience.
+                                            Discover a world of travel destinations with TripNThrill, from popular hotspots to off-the-grid locations.
                                         </p>
                                     </div>
                                 </div>
@@ -204,7 +207,7 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="fas fa-pencil-ruler"></i>
+                                                        <FaPuzzlePiece />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -218,7 +221,7 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="fas fa-globe-americas"></i>
+                                                        <FaMountain />
                                                     </span>
                                                 </div>
                                                 <div>
@@ -230,11 +233,11 @@ function AboutUs() {
                                             <div className="flex items-center">
                                                 <div>
                                                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
-                                                        <i className="fas fa-random"></i>
+                                                        <FaExchangeAlt />
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-gray-600">Dynamic packeges</h4>
+                                                    <h4 className="text-gray-600">Dynamic packages</h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -272,7 +275,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -292,7 +295,7 @@ function AboutUs() {
                                     <FaFacebook />
                                 </a>
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -314,7 +317,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -336,7 +339,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -358,7 +361,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -378,7 +381,7 @@ function AboutUs() {
                                     <FaFacebook />
                                 </a>
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -400,7 +403,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -422,7 +425,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -444,7 +447,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -464,7 +467,7 @@ function AboutUs() {
                                     <FaFacebook />
                                 </a>
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -486,7 +489,7 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
@@ -508,7 +511,29 @@ function AboutUs() {
                                 </a>
 
                                 <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
-                                    <FaGithub />
+                                    <FaLinkedinIn />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
+                            <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a10} alt="" />
+
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Sachin</h1>
+
+                            <p className="mt-2 text-gray-500 capitalize">CA and Legal Advisor</p>
+
+                            <div className="flex mt-3 -mx-2">
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Instagram">
+                                    <FaInstagram />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Facebook">
+                                    <FaFacebook />
+                                </a>
+
+                                <a href="!#" className="mx-2 text-gray-800" aria-label="Github">
+                                    <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
