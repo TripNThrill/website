@@ -4,7 +4,7 @@ import homepage from '../../assets/homeImg/homepage.png'
 function Hero() {
     return (
         // <section className="relative">
-        <div className='flex flex-col-reverse items-center w-full sm:h-screen md:flex-row bg-[#FBF1D3]'>
+        <div className='flex flex-col-reverse items-center justify-between w-full sm:h-screen md:flex-row bg-[#FBF1D3]'>
             <div className='justify-center text-center mx-4 py-4 lg:w-1/2 sm:lg:w-full'>
                 <div className='flex flex-col md:p-8 md:m-8'>
                     <h1 className='font-sans intro-title'>Explore the World with Us</h1>

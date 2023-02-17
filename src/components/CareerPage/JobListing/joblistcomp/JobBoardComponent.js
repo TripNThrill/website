@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
-const jobBoardComponent = ({ job: { logo, company, location, postedAt, contract, isNew, position, featured, languages, tools, role, level }, handleTagClick }) => {
-    const tags = [role, level];
+const jobBoardComponent = ({ job: { company, location, postedAt, contract, isNew, position, featured, languages, tools }, handleTagClick }) => {
+    const tags = [];
     if (languages)
         tags.push(...languages)
     if (tools)

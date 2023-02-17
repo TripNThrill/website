@@ -1,5 +1,5 @@
 import React from 'react'
-import Logistics from '../../assets/siteinfo/Logistics.png'
+import Custom from '../../assets/siteinfo/custom.png'
 import Stressfree from '../../assets/siteinfo/Stressfree.png'
 import Experts from '../../assets/siteinfo/Experts.png'
 import Support from '../../assets/siteinfo/Support.png'
@@ -29,9 +29,9 @@ function SiteInfo() {
                         {/* 1st item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
                             <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
-                                <img className='' src={Logistics} alt="/" />
+                                <img className='' src={Custom} alt="/" />
                             </div>
-                            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Handling logistics</h4>
+                            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Customizable packages</h4>
                         </div>
 
                         {/* 2nd item */}

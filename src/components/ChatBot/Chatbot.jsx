@@ -17,6 +17,9 @@ function Chatbot() {
             const func = el[keys].children[0].props.onClick;
             func();
         }
+        if (location === '/terms') {
+            document.getElementsByClassName('rsc')[0].style.visibility = 'hidden'
+        }
     })
 
     const theme = {
@@ -25,8 +28,8 @@ function Chatbot() {
         headerBgColor: '#002462',
         headerFontColor: '#fff',
         headerFontSize: '15px',
-        botBubbleColor: '#1C82AD',
-        botFontColor: '#fff',
+        botBubbleColor: '#FFEBB7',
+        botFontColor: '#002462',
         userBubbleColor: '#fff',
         userFontColor: '#4a4a4a',
 

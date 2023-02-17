@@ -1,11 +1,10 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
-// import logoImage from '../../../assets/logo.jpg'
 
 function Footer() {
     return (
-        <footer class="text-center lg:text-left bg-gray-200 text-gray-600 pt-8 pb-6">
+        <footer class="text-center lg:text-left bg-gray-200 text-gray-600 pt-8 pb-6 mt-8">
             <div class="container">
                 <div class="grid grid-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full m-4 p-4">
                     <div class="col-span-2 lg:col-span-2">
@@ -65,7 +64,7 @@ function Footer() {
                             <NavLink to="/about" class="text-gray-700">About Us</NavLink>
                         </p>
                         <p class="mb-4">
-                            <NavLink to="/" class="text-gray-700">contact Us</NavLink>
+                            <NavLink to="/privacy" class="text-gray-700">Privacy Policy</NavLink>
                         </p>
                         <p class="mb-4">
                             <NavLink to="/why" class="text-gray-700">Why Us ?</NavLink>
