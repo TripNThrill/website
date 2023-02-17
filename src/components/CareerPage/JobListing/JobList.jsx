@@ -35,14 +35,14 @@ function JobList() {
     }
 
     return (
-        <Fragment id="joblist">
-            <header className="flex flex-col items-center my-20">
+        <Fragment >
+            <header id="joblist" className="flex flex-col items-center m-10">
                 <motion.h1
                     key="logo"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.4, delay: 0.8 }}
-                    className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+                    className="mb-4 text-3xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
                 >
                     START DOING WORK THAT MATTERS
                 </motion.h1>
@@ -51,7 +51,7 @@ function JobList() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.4, delay: 0.9 }}
-                    className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48"
+                    className="mb-6 text-base font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48"
                 >
                     Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work.
                 </motion.p>

@@ -11,7 +11,7 @@ import SelectsCard from './SelectCard';
 function Destination() {
 
     return (
-        <section className="relative my-40">
+        <section className="relative my-10 md:my-40">
             <div className="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
             <div className="absolute left-0 right-0 m-auto bg-gray-200 transform -translate-y-1/2"></div>
 
@@ -19,11 +19,12 @@ function Destination() {
                 <div className="pt-12 md:pt-20">
 
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                        <h1 className="text-3xl md:text-5xl mb-4">Explore the destinations</h1>
+                        <h1 className="text-4xl md:text-5xl mb-4">Explore the destinations</h1>
+                        <p className="text-base text-gray-600">Explore the world with our curated selection of destinations.</p>
                     </div>
 
                     <div className='px-4 text-center' >
-                        <div className='max-w-[1240px] mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4'>
+                        <div className='max-w-[1240px] mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 
                             <SelectsCard bg={BoraBora} text='Hampi' />
                             <SelectsCard bg={BoraBora2} text='Coorg' />
