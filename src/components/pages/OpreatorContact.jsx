@@ -1,5 +1,9 @@
 import React from 'react'
-import { FaHeadset, FaDollarSign, FaNewspaper, FaBug } from 'react-icons/fa'
+import {
+    FaMobileAlt,
+    FaRegEnvelope,
+    FaMapMarkerAlt
+} from 'react-icons/fa';
 
 function OpreatorContact() {
     return (
@@ -10,63 +14,28 @@ function OpreatorContact() {
                     <div>
                         <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
                     </div>
-                    <div className="mt-8 text-center">
+                    <div className="text-center">
                         <div class="grow-0 shrink-0 basis-auto w-full xl:w-7/12">
-                            <div class="grid grid-cols-1">
-                                <div class="mb-6 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
-                                    <div class="flex items-start">
-                                        <div class="shrink-0">
-                                            <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                                <FaHeadset />
-                                            </div>
-                                        </div>
-                                        <div class="grow ml-2 md:ml-6">
-                                            <p class="font-bold mb-1">Technical support</p>
-                                            <p class="text-gray-500">support@tripnthrill.com</p>
-
-                                        </div>
+                            <div className="flex flex-col">
+                                <div className="flex relative py-5">
+                                    <div className="min-w-[60px] bg-white flex justify-center items-center rounded-full text-2xl"><FaMapMarkerAlt className='icon' /></div>
+                                    <div className="flex flex-col items-start font-light ml-5 text-base text-black">
+                                        <h3 className='font-medium'>Address</h3>
+                                        <p>501 street india</p>
                                     </div>
                                 </div>
-                                <div class="mb-6 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
-                                    <div class="flex items-start">
-                                        <div class="shrink-0">
-                                            <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                                <FaDollarSign />
-                                            </div>
-                                        </div>
-                                        <div class="grow ml-2 md:ml-6">
-                                            <p class="font-bold mb-1">Sales questions</p>
-                                            <p class="text-gray-500">sales@tripnthrill.com</p>
-
-                                        </div>
+                                <div className="flex relative py-5">
+                                    <div className="min-w-[60px] bg-white flex justify-center items-center rounded-full text-2xl"><FaMobileAlt className='icon' /></div>
+                                    <div className="flex flex-col items-start font-light ml-5 text-base text-black">
+                                        <h3 className='font-medium'>Phone</h3>
+                                        <p><a href="tel:+919148939841">+91 9148939841</a></p>
                                     </div>
                                 </div>
-                                <div class="mb-6 grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
-                                    <div class="flex align-start">
-                                        <div class="shrink-0">
-                                            <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                                <FaNewspaper />
-                                            </div>
-                                        </div>
-                                        <div class="grow ml-2 md:ml-6">
-                                            <p class="font-bold mb-1">Press</p>
-                                            <p class="text-gray-500">press@tripnthrill.com</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grow-0 shrink-0 basis-auto w-full md:w-6/12 px-3 lg:px-6">
-                                    <div class="flex align-start">
-                                        <div class="shrink-0">
-                                            <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                                                <FaBug />
-                                            </div>
-                                        </div>
-                                        <div class="grow ml-2 md:ml-6">
-                                            <p class="font-bold mb-1">Bug report</p>
-                                            <p class="text-gray-500">bugs@tripnthrill.com</p>
-
-                                        </div>
+                                <div className="flex relative py-5">
+                                    <div className="min-w-[60px] bg-white flex justify-center items-center rounded-full text-2xl"><FaRegEnvelope className='icon' /></div>
+                                    <div className="flex flex-col items-start font-light ml-5 text-base text-black">
+                                        <h3 className='font-medium'>Email</h3>
+                                        <p className='cursor-pointer' onClick={() => window.location = 'mailto:support@tripnthrill.com'}>support@tripnthrill.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,18 +45,18 @@ function OpreatorContact() {
                 <div className="">
                     <div>
                         <span className="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                        <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                        <input className="w-full bg-white text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                             type="text" placeholder="" />
                     </div>
                     <div className="mt-8">
                         <span className="uppercase text-sm text-gray-600 font-bold">Email</span>
-                        <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                        <input className="w-full bg-white text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                             type="text" />
                     </div>
                     <div className="mt-8">
                         <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
                         <textarea
-                            className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline resize-none"></textarea>
+                            className="w-full h-32 bg-white text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline resize-none"></textarea>
                     </div>
                     <div className="mt-8">
                         <button

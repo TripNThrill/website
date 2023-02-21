@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
+
     return (
         <footer class="text-center lg:text-left bg-gray-200 text-gray-600 pt-8 pb-6 mt-8">
             <div class="container">

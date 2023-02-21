@@ -5,13 +5,13 @@ import './careers.css';
 function Careers() {
 
     return (
-        <div className="mx-auto md:mt-20 md:mb-[7rem] justify-center space-y-3 lg:space-y-6 py-4 text-center md:px-6 lg:mt-[0] lg:pt-[11rem] lg:mb-[0] lg:pb-[14.5rem] bg-[#9083ff]">
+        <div className="mx-auto md:mt-20 md:mb-[7rem] justify-center space-y-3 lg:space-y-6 py-4 text-center md:px-6 lg:mt-[0] lg:pt-[11rem] lg:mb-[0] lg:pb-[14.5rem] bg-[#FBF1D3]">
             <motion.h1
                 key="logo"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.4, delay: 0.8 }}
-                className="text-4xl lg:text-7xl text-[#13005A]"
+                className="text-4xl lg:text-7xl text-[#220a00]"
             >
                 Join Our Team and
                 <br className="hidden lg:flex" /> Travel World

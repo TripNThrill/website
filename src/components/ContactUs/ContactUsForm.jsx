@@ -39,7 +39,7 @@ function ContactUsForm() {
                         <div className="contactInfo">
                             <div className="text-white extraInfo">
                                 <h2>Contact Information</h2>
-                                <h5>Fill up the information and our teem get back to you.</h5>
+                                <h5>Fill up the information and our team get back to you.</h5>
                             </div>
                             <div className="box">
                                 <div className="icon"><FaMapMarkerAlt className='icon' /></div>
@@ -59,7 +59,7 @@ function ContactUsForm() {
                                 <div className="icon"><FaRegEnvelope className='icon' /></div>
                                 <div className="text">
                                     <h3>Email</h3>
-                                    <p className='cursor-pointer' onClick={() => window.location = 'mailto:yourmail@domain.com'}>support@tripnthrill.com</p>
+                                    <p className='cursor-pointer' onClick={() => window.location = 'mailto:support@tripnthrill.com'}>support@tripnthrill.com</p>
                                 </div>
                             </div>
                         </div>

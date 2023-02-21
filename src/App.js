@@ -2,6 +2,7 @@ import Navbar from './components/navbar/Navbar';
 import AllRoutes from './AllRoutes';
 import Footer from './components/footer/Footer';
 import Chatbot from './components/ChatBot/Chatbot';
+import ScrollTopArrow from './components/ScrollTopArrow/ScrollTopArrow';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
     <div className="App">
       <header className="App-header">
+        <ScrollTopArrow />
         <Navbar />
         <Chatbot />
         <AllRoutes />
