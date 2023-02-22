@@ -1,14 +1,36 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useLocation } from "react-router-dom";
 import './policy.css'
 
 function Policy() {
+
+    const location = useLocation().pathname;
+
+    useEffect(() => {
+        if (location === '/privacy') {
+            const removefooter = (mq) => {
+                if (mq.matches) {
+                    document.getElementsByTagName("footer")[0].style.display = 'none';
+                }
+            }
+
+            const mq = window.matchMedia("(max-width: 400px)");
+            removefooter(mq);
+
+            const handleMediaQueryChange = () => {
+                removefooter(mq);
+            };
+
+            mq.addEventListener("change", handleMediaQueryChange);
+
+            return () => {
+                mq.removeEventListener("change", handleMediaQueryChange);
+            };
+        }
+    }, [location]);
+
     return (
         <div className="w-full ppbody text-gray-700">
-            <div className="ppheader">
-                <div className="ppcontainer">
-                    <p className="title">Privacy Policy for TripNThrill</p>
-                </div>
-            </div>
             <div className="translations-content-container">
                 <div className="ppcontainer">
                     <div className="tab-content translations-content-item en visible ppsummry" id="en">
@@ -16,7 +38,7 @@ function Policy() {
                         <p>Last updated: February 17, 2023</p>
                         <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
                         <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" rel="noreferrer" target="_blank">TermsFeed Privacy Policy Generator</a>.</p>
-                        <span className="text-4xl font-bold">Interpretation and Definitions</span>
+                        <p className="text-4xl font-bold mt-8">Interpretation and Definitions</p>
                         <h2>Interpretation</h2>
                         <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
                         <h2>Definitions</h2>

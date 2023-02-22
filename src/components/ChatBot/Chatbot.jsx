@@ -17,7 +17,7 @@ function Chatbot() {
             const func = el[keys].children[0].props.onClick;
             func();
         }
-        if (location === '/terms') {
+        if (location === '/terms' || location === '/privacy') {
             document.getElementsByClassName('rsc')[0].style.visibility = 'hidden'
         }
     })

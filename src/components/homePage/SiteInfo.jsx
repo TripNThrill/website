@@ -28,7 +28,7 @@ function SiteInfo() {
 
                         {/* 1st item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Custom} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Customizable packages</h4>
@@ -36,7 +36,7 @@ function SiteInfo() {
 
                         {/* 2nd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Stressfree} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Stress-free travel</h4>
@@ -44,7 +44,7 @@ function SiteInfo() {
 
                         {/* 3rd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Experts} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Expert travel advisors</h4>
@@ -52,7 +52,7 @@ function SiteInfo() {
 
                         {/* 4th item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Support} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Constant support</h4>
@@ -60,7 +60,7 @@ function SiteInfo() {
 
                         {/* 5th item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Planning} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Personalized planning</h4>
@@ -68,7 +68,7 @@ function SiteInfo() {
 
                         {/* 6th item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl border-2 border-[#111827]">
-                            <div class="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
+                            <div className="bg-white  shadow-lg font-normal h-30 w-30 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2">
                                 <img className='' src={Customer} alt="/" />
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mt-8">Customer satisfaction</h4>

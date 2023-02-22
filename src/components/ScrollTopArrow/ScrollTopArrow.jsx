@@ -21,7 +21,7 @@ function ScrollTopArrow() {
 
     return (
         <div>
-            <FaArrowCircleUp onClick={ScrollTop} className="fixed w-full bottom-5 right-[45%] h-10 z-40 cursor-pointer text-[#002462]"
+            <FaArrowCircleUp onClick={ScrollTop} className="fixed w-full bottom-10 right-[40%] md:right-[45%] h-10 z-40 cursor-pointer text-[#002462]"
                 style={{ display: showScroll ? 'flex' : 'none' }} />
         </div>
     )

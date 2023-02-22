@@ -1,15 +1,6 @@
-import React from 'react'
-// import { useEffect, useLocation } from 'react';
+import React from "react";
 
 function TnC() {
-
-    // const location = useLocation().pathname;
-
-    // useEffect(() => {
-    //     if (location === '/terms') {
-    //         document.getElementsByTagName("footer")[0].style.visibility = 'hidden';
-    //     }
-    // })
 
     return (
         <div className="text-gray-700" style={{ backgroundColor: '#f6f6f6' }}>

@@ -15,7 +15,7 @@ function OpreatorContact() {
                         <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
                     </div>
                     <div className="text-center">
-                        <div class="grow-0 shrink-0 basis-auto w-full xl:w-7/12">
+                        <div className="grow-0 shrink-0 basis-auto w-full xl:w-7/12">
                             <div className="flex flex-col">
                                 <div className="flex relative py-5">
                                     <div className="min-w-[60px] bg-white flex justify-center items-center rounded-full text-2xl"><FaMapMarkerAlt className='icon' /></div>
