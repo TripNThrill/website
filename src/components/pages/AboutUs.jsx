@@ -325,7 +325,7 @@ function AboutUs() {
                         <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
                             <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a8} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Vaibhav</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Chetan</h1>
 
                             <p className="mt-2 text-gray-500 capitalize">Frontend Developer</p>
 
@@ -389,7 +389,7 @@ function AboutUs() {
                         <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
                             <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a2} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Ketan</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Bharat</h1>
 
                             <p className="mt-2 text-gray-500 capitalize">Web Developer</p>
 
@@ -411,7 +411,7 @@ function AboutUs() {
                         <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
                             <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a3} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Rahul</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Akash</h1>
 
                             <p className="mt-2 text-gray-500 capitalize">Testing</p>
 
@@ -475,7 +475,7 @@ function AboutUs() {
                         <div className="flex flex-col items-center p-8 transition-colors duration-300 transform border border-black cursor-pointer rounded-xl group hover:bg-gray-300 ">
                             <img className="object-cover w-32 h-32 rounded-full ring-1 ring-black" src={a6} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Neema</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-black capitalize group-hover:text-white">Ajay</h1>
 
                             <p className="mt-2 text-gray-500 capitalize">Backend</p>
 
