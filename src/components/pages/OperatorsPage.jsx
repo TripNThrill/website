@@ -26,40 +26,42 @@ function OperatorsPage() {
                         <p className="mx-auto  md:text-xl font-normal leading-relaxed text-gray-700 dark:text-gray-300 lg:w-2/3">
                             Grow your travel business with 100% phone & email verified leads.{" "}
                             <br></br>
-                            Call Us at <a href="tel:+919148939841">+91 9148939841</a> and learn about how we can help you
+                            Call Us and learn about how we can help you
                         </p>
+
+                        <div className="text-gray-200 body-font">
+                            <div className="px-5 pt-20">
+                                <div className="flex -m-4 text-center border-8 border-white rounded">
+                                    <div className="p-4 sm:w-1/3 w-full">
+                                        <h2 className="title-font font-medium sm:text-5xl text-3xl text-white">
+                                            <CountUp end={100} redraw={true}>
+                                            </CountUp>
+                                        </h2>
+                                        <p className="leading-relaxed">Users</p>
+                                    </div>
+                                    <div className="p-4 sm:w-1/3 w-full">
+                                        <h2 className="title-font font-medium sm:text-5xl text-3xl text-white">
+                                            <CountUp end={100} redraw={true}>
+                                            </CountUp>
+                                        </h2>
+                                        <p className="leading-relaxed">ACTIVE AGENTS</p>
+                                    </div>
+                                    <div className="p-4 sm:w-1/3 w-full">
+                                        <h2 className="title-font font-medium sm:text-5xl text-3xl text-white">
+                                            <CountUp end={100} redraw={true}>
+                                            </CountUp>
+                                        </h2>
+                                        <p className="leading-relaxed">% VERIFIED LEADS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <div className="text-gray-600 body-font">
 
-                <div className="px-5 py-5 md:py-10">
-                    <div className="flex -m-4 text-center border-8 border-black rounded">
-                        <div className="p-4 sm:w-1/3 w-full">
-                            <h2 className="title-font font-medium sm:text-5xl text-3xl text-black">
-                                <CountUp end={100} redraw={true}>
-                                </CountUp>
-                            </h2>
-                            <p className="leading-relaxed">Users</p>
-                        </div>
-                        <div className="p-4 sm:w-1/3 w-full">
-                            <h2 className="title-font font-medium sm:text-5xl text-3xl text-black">
-                                <CountUp end={100} redraw={true}>
-                                </CountUp>
-                            </h2>
-                            <p className="leading-relaxed">ACTIVE AGENTS</p>
-                        </div>
-                        <div className="p-4 sm:w-1/3 w-full">
-                            <h2 className="title-font font-medium sm:text-5xl text-3xl text-black">
-                                <CountUp end={100} redraw={true}>
-                                </CountUp>
-                            </h2>
-                            <p className="leading-relaxed">% VERIFIED LEADS</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div className="container relative mx-auto">
                 <div className="items-center flex flex-wrap my-20 pb-20">

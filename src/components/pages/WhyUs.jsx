@@ -28,31 +28,10 @@ const features = [
     },
 ]
 
-// const whyus = [
-//     {
-//       title:"Your title here",
-//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
-//       image:"/assets/images/feature.svg",
-//       imageAlt:"First feature alt text"
-//     },
-//     {
-//       title:"Your title here",
-//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
-//       image:"/assets/images/feature2.svg",
-//       imageAlt:"Second feature alt text",
-//     },
-//     {
-//       title:"Your title here",
-//       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.",
-//       image:"/assets/images/feature3.svg",
-//       imageAlt:"Third feature alt text"
-//     }
-// ];
-
 function WhyUs() {
     return (
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="bg-white container">
+            <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8 my-6">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Why Us ?</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -76,33 +55,6 @@ function WhyUs() {
                             </div>
                         ))}
                     </dl>
-                </div>
-            </div>
-
-            <div className="text-center m-20 border-2 rounded-md">
-                <div className="h-min overflow-hidden rounded-md">
-                    <img className="hover:scale-125 transition-all duration-500 cursor-pointer" src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" />
-                </div>
-                <h3 className="text-3xl py-4">Our Mission</h3>
-                <span className="text-lg text-gray-700"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum quos voluptatum tempore quis exercitationem, ad officiis dolorum temporibus veritatis quod itaque repellendus molestiae culpa laboriosam, cupiditate voluptate. Eius, placeat! </span>
-            </div>
-
-            <div className='max-w-screen-lg mx-auto px-3 py-16' >
-                <div className="mb-12 text-center">
-                    <h2 className="text-4xl text-gray-900 font-bold">aklksjfnsl fj</h2>
-                    <div className="mt-4 text-xl md:px-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quam culpa obcaecati iusto cumque ratione impedit nihil adipisci. Commodi minima molestias assumenda consequatur repudiandae sunt eveniet aut eligendi necessitatibus at!lorem10
-                    </div>
-                </div>
-            </div>
-
-            <div className='mt-20 flex flex-wrap items-center'>
-                <div className="w-full sm:w-1/2 text-center sm:px-6">
-                    {/* <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3> */}
-                    {/* <div className="mt-6 text-xl leading-9">{props.description}</div> */}
-                </div>
-
-                <div className="w-full sm:w-1/2 p-6">
-                    {/* <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} /> */}
                 </div>
             </div>
         </div>

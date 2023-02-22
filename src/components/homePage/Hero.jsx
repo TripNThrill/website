@@ -10,16 +10,16 @@ function Hero() {
                     <h1 className='font-sans intro-title'>Explore the World with Us</h1>
                     {/* <p className='font-sans p-4 text-sm sm:text-xl text-Amber-600'>Tour and Travel Packages for Every Adventure Seeker</p> */}
                     <p className='font-sans p-4 text-sm sm:text-xl text-Amber-600'>Discover new places and create unforgettable memories</p>
-                    <div class="flex justify-evenly m-1">
-                        <div class="download android">
-                            <i class="fa fa-android fa-2x"></i>
-                            <span class="p1">Download from</span>
-                            <span class="p2">Google Play</span>
+                    <div className="flex justify-evenly m-1">
+                        <div className="download android">
+                            <i className="fa fa-android fa-2x"></i>
+                            <span className="p1">Download from</span>
+                            <span className="p2">Google Play</span>
                         </div>
-                        <div class="download apple">
-                            <i class="fa fa-apple fa-2x"></i>
-                            <span class="p1">Download from</span>
-                            <span class="p2">App Store</span>
+                        <div className="download apple">
+                            <i className="fa fa-apple fa-2x"></i>
+                            <span className="p1">Download from</span>
+                            <span className="p2">App Store</span>
                         </div>
                     </div>
                 </div>

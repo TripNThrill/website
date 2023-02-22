@@ -1,0 +1,122 @@
+.ppbody {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+.ppsummry h1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+.ppsummry h1,
+h2 {
+  font-weight: 700;
+}
+.ppsummry h2 {
+  font-size: 28px;
+  line-height: 48px;
+}
+.ppsummry h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.ppsummry h3,
+h4 {
+  font-weight: 700;
+}
+.ppsummry h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.ppsummry h5 {
+  font-size: 16px;
+}
+.ppsummry h5,
+h6 {
+  line-height: 24px;
+  font-weight: 700;
+}
+.ppsummry h6 {
+  font-size: cacl(16px);
+}
+.ppsummry a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.ppsummry ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.ppsummry a:hover,
+a[rel~="nofollow"] {
+  text-decoration: underline;
+}
+.ppsummry a[rel~="nofollow"] {
+  color: #0452a5;
+}
+.ppsummry a[rel~="nofollow"]:hover {
+  text-decoration: none;
+}
+.visible {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+/* .page {
+  width: 100%;
+} */
+.ppcontainer {
+  position: relative;
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.ppheader {
+  color: #000;
+  padding: 16px 0;
+}
+.ppheader .title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+.translations-list-container {
+  color: #000;
+  padding-bottom: 8px;
+  margin: 0 0 16px;
+}
+.translations-list-container .translations-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.translations-list-container .translations-list .translations-list-item {
+  display: inline-block;
+  padding: 0;
+  margin: 0 8px 8px 0;
+  color: #fff;
+}
+.translations-list-container .translations-list .translations-list-item a {
+  display: inline-block;
+  padding: 4px 8px;
+}
+.translations-list-container
+  .translations-list
+  .translations-list-item
+  a.active {
+  color: #fff;
+  background: #334055;
+}
+.translations-content-container {
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}

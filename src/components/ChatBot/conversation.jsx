@@ -280,7 +280,6 @@ export const script = [
     {
         id: "USER/report-desc",
         user: true,
-        message: "",
         trigger: "BOT/report-ack"
     },
     {
@@ -303,7 +302,6 @@ export const script = [
     {
         id: "USER/feedback-desc",
         user: true,
-        message: "",
         trigger: "BOT/feedback-ack"
     },
     {
