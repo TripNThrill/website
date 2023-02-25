@@ -26,7 +26,7 @@ const Bottom = () => {
             <img
               className="sm:h-52 sm:w-full sm:object-cover object-center mt-2 rounded-lg shadow-2xl"
               src="https://source.unsplash.com/iUBgeNeyVy8"
-              alt="Ad- woman on a beach"
+              alt="woman on a beach"
             />
           </div>
 
@@ -42,10 +42,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Bangalore</h1>
-              <p className="test__author font-sm font-light">Joe Jackson</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Bangalore</h1>
+              <p className="test__author text-xs font-light">Joe Jackson</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#bangalore</span>
             </div>
           </div>
@@ -56,10 +56,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Andheri</h1>
-              <p className="test__author font-sm font-light">Sharma Ketan</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Andheri</h1>
+              <p className="test__author text-xs font-light">Sharma Ketan</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#andheri</span>
             </div>
           </div>
@@ -70,10 +70,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Pune</h1>
-              <p className="test__author font-sm font-light">Rahul</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Pune</h1>
+              <p className="test__author text-xs font-light">Rahul</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#pune</span>
             </div>
           </div>
@@ -84,10 +84,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Kanyakumari</h1>
-              <p className="test__author font-sm font-light">Nema</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Kanyakumari</h1>
+              <p className="test__author text-xs font-light">Nema</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#kanyakumari</span>
             </div>
           </div>
@@ -98,10 +98,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Band Stand</h1>
-              <p className="test__author font-sm font-light">Miraj</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Band Stand</h1>
+              <p className="test__author text-xs font-light">Miraj</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#mumbai</span>
             </div>
           </div>
@@ -112,10 +112,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Jewels</h1>
-              <p className="test__author font-sm font-light">James</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Jewels</h1>
+              <p className="test__author text-xs font-light">James</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#rosevault</span>
             </div>
           </div>
@@ -126,10 +126,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">New York</h1>
-              <p className="test__author font-sm font-light">Jessica</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">New York</h1>
+              <p className="test__author text-xs font-light">Jessica</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#newyork</span>
             </div>
           </div>
@@ -140,10 +140,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Shipwrek</h1>
-              <p className="test__author font-sm font-light">Andrew</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Shipwrek</h1>
+              <p className="test__author text-xs font-light">Andrew</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#uk</span>
             </div>
           </div>
@@ -154,10 +154,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Beauty Beach</h1>
-              <p className="test__author font-sm font-light">Sumukh</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Beauty Beach</h1>
+              <p className="test__author text-xs font-light">Sumukh</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#bali</span>
             </div>
           </div>
@@ -168,10 +168,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Taj</h1>
-              <p className="test__author font-sm font-light">Aman</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Taj</h1>
+              <p className="test__author text-xs font-light">Aman</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#india</span>
             </div>
           </div>
@@ -182,10 +182,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Chruchgate</h1>
-              <p className="test__author font-sm font-light">Nandan</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Chruchgate</h1>
+              <p className="test__author text-xs font-light">Nandan</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#mumbai</span>
             </div>
           </div>
@@ -196,10 +196,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Beach</h1>
-              <p className="test__author font-sm font-light">Neelu</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Beach</h1>
+              <p className="test__author text-xs font-light">Neelu</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#beach</span>
             </div>
           </div>
@@ -210,10 +210,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Sunset - Sunrise</h1>
-              <p className="test__author font-sm font-light">Solarpreet</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Sunset - Sunrise</h1>
+              <p className="test__author text-xs font-light">Solarpreet</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#sunrise</span>
             </div>
           </div>
@@ -224,10 +224,10 @@ const Bottom = () => {
           <div className="test__body absolute inset-0 p-8 text-white flex flex-col">
             <div className="relative">
               {/* <a className="test__link absolute inset-0" target="_blank" href="/"></a> */}
-              <h1 className="test__title text-3xl font-bold mb-3">Mount Django</h1>
-              <p className="test__author font-sm font-light">Monty</p>
+              <h1 className="test__title text-sm md:text-3xl font-bold mb-3">Mount Django</h1>
+              <p className="test__author text-xs font-light">Monty</p>
             </div>
-            <div className="mt-auto">
+            <div className="hidden md:block mt-auto">
               <span className="test__tag bg-white bg-opacity-60 py-1 px-4 rounded-md text-black">#mountains</span>
             </div>
           </div>
