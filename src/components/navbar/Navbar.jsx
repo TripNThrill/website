@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link onClick={handleShowNavbar} to="/">HOME</Link>
             </li>
             <li>
-              <Link onClick={handleShowNavbar} to="/blog">BLOG</Link>
+              <a onClick={handleShowNavbar} href="https://blog.tripnthrill.com/blog/" target="_blank" rel="noreferrer">BLOG</a>
             </li>
             <li>
               <Link onClick={handleShowNavbar} to="/careers">CAREERS</Link>

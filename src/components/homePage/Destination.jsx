@@ -26,15 +26,15 @@ function Destination() {
                     <div className='px-4 text-center' >
                         <div className='max-w-[1240px] mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-8'>
 
-                            <SelectsCard bg={BoraBora} text='Hampi' />
-                            <SelectsCard bg={BoraBora2} text='Coorg' />
-                            <SelectsCard bg={Maldives} text='Chikmagalur' />
-                            <SelectsCard bg={Maldives2} text='Jog Falls' />
-                            <SelectsCard bg={Maldives3} text='Mysore Palace' />
-                            <SelectsCard bg={KeyWest} text='Gokarna' />
-                            <SelectsCard bg={BoraBora} text='Bandipur ' />
-                            <SelectsCard bg={BoraBora2} text='Kabini River' />
-                            <SelectsCard bg={Maldives} text='Bangalore' />
+                            <SelectsCard bg={BoraBora} text='Hampi' state="Karnataka" />
+                            <SelectsCard bg={BoraBora2} text='Coorg' state="Karnataka" />
+                            <SelectsCard bg={Maldives} text='Chikmagalur' state="Karnataka" />
+                            <SelectsCard bg={Maldives2} text='Jog Falls' state="Karnataka" />
+                            <SelectsCard bg={Maldives3} text='Mysore Palace' state="Karnataka" />
+                            <SelectsCard bg={KeyWest} text='Gokarna' state="Karnataka" />
+                            <SelectsCard bg={BoraBora} text='Bandipur ' state="Karnataka" />
+                            <SelectsCard bg={BoraBora2} text='Kabini River' state="Karnataka" />
+                            <SelectsCard bg={Maldives} text='Bangalore' state="Karnataka" />
 
 
                         </div>
