@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn, FaHeart } from 'react-icons/fa';
 
 function Footer() {
 
@@ -74,6 +74,7 @@ function Footer() {
                 </div>
             </div>
             <div className="text-center p-6 bg-gray-300">
+                <p>Made with <FaHeart className="inline" color="red" /> in India</p>
                 <span>© 2023 Copyright:</span>
                 <a className="text-gray-600 font-semibold" href="https://tripnthrill.com/">TripNThrill</a>
             </div>

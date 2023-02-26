@@ -16,7 +16,7 @@ function ContactUsForm() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_oocyjre', 'template_96ug4no', e.target, 'XsP8X-6jPep3jAh1G')
+        emailjs.sendForm('service_ilzp7n8', 'template_my3nt0o', e.target, 'a73uHO4kYzaCnr08H')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
